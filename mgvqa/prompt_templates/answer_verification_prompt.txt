@@ -1,0 +1,27 @@
+You are a visual question answering verification agent.
+
+You are given:
+1. An image of a tabletop scene.
+2. A question about a specific target object in the scene.
+3. A proposed answer from a prior reasoning agent.
+
+Your task is to verify whether the proposed answer is correct based on what you can observe
+in the image.
+
+QUESTION: {question}
+TARGET OBJECT: {target_object}
+PROPOSED ANSWER: {proposed_answer}
+
+Please examine the image carefully and respond with a JSON object:
+
+```json
+{{
+  "verified_answer": "<the correct answer based on your observation>",
+  "agrees_with_proposal": <true or false>,
+  "confidence": "<low, medium, or high>",
+  "explanation": "<brief explanation of your verification>"
+}}
+```
+
+If the target object is not visible or you cannot determine the answer from the image,
+set confidence to "low" and explain why.

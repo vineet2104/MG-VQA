@@ -1,0 +1,9 @@
+Status: Perception-only; manipulation unavailable. Step: {step} of {max_steps}. Last tool: {last_tool}.
+
+{previous_tool_response_block}
+Question: {question}
+Task: {task}
+{answer_options_block}
+Image 1: Current clean top-down RGB.
+{segmentation_image_block}
+Previous images and tool responses remain in the conversation history. Respond using the JSON schema specified in the system prompt.

@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<!--
+  spawn_basket.urdf — Shallow open-top basket for containing spawned objects.
+
+  Dimensions are parameterised via globalScaling at load time.
+  At scale=1.0, the interior is roughly 0.40m x 0.30m with 0.06m-high walls.
+  The basket sits flat on whatever surface it's placed on.
+
+  Walls are angled slightly outward (~5°) so objects near the edges are still
+  reachable by the gripper and visible to the top-down camera.
+-->
+<robot name="spawn_basket">
+  <link name="base_link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+
+    <!-- ==================== VISUAL ==================== -->
+
+    <!-- Bottom plate -->
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0.005"/>
+      <geometry>
+        <box size="0.40 0.30 0.01"/>
+      </geometry>
+      <material name="basket_mat">
+        <color rgba="0.45 0.42 0.38 1.0"/>
+      </material>
+    </visual>
+
+    <!-- Wall: +X (right) -->
+    <visual>
+      <origin rpy="0 -0.087 0" xyz="0.205 0 0.035"/>
+      <geometry>
+        <box size="0.01 0.30 0.06"/>
+      </geometry>
+      <material name="basket_mat"/>
+    </visual>
+
+    <!-- Wall: -X (left) -->
+    <visual>
+      <origin rpy="0 0.087 0" xyz="-0.205 0 0.035"/>
+      <geometry>
+        <box size="0.01 0.30 0.06"/>
+      </geometry>
+      <material name="basket_mat"/>
+    </visual>
+
+    <!-- Wall: +Y (back) -->
+    <visual>
+      <origin rpy="-0.087 0 0" xyz="0 0.155 0.035"/>
+      <geometry>
+        <box size="0.40 0.01 0.06"/>
+      </geometry>
+      <material name="basket_mat"/>
+    </visual>
+
+    <!-- Wall: -Y (front) -->
+    <visual>
+      <origin rpy="0.087 0 0" xyz="0 -0.155 0.035"/>
+      <geometry>
+        <box size="0.40 0.01 0.06"/>
+      </geometry>
+      <material name="basket_mat"/>
+    </visual>
+
+    <!-- ==================== COLLISION ==================== -->
+
+    <!-- Bottom plate -->
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0.005"/>
+      <geometry>
+        <box size="0.40 0.30 0.01"/>
+      </geometry>
+    </collision>
+
+    <!-- Wall: +X -->
+    <collision>
+      <origin rpy="0 -0.087 0" xyz="0.205 0 0.035"/>
+      <geometry>
+        <box size="0.01 0.30 0.06"/>
+      </geometry>
+    </collision>
+
+    <!-- Wall: -X -->
+    <collision>
+      <origin rpy="0 0.087 0" xyz="-0.205 0 0.035"/>
+      <geometry>
+        <box size="0.01 0.30 0.06"/>
+      </geometry>
+    </collision>
+
+    <!-- Wall: +Y -->
+    <collision>
+      <origin rpy="-0.087 0 0" xyz="0 0.155 0.035"/>
+      <geometry>
+        <box size="0.40 0.01 0.06"/>
+      </geometry>
+    </collision>
+
+    <!-- Wall: -Y -->
+    <collision>
+      <origin rpy="0.087 0 0" xyz="0 -0.155 0.035"/>
+      <geometry>
+        <box size="0.40 0.01 0.06"/>
+      </geometry>
+    </collision>
+
+  </link>
+</robot>

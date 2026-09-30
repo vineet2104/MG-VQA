@@ -1,0 +1,30 @@
+# Linux x86_64. Choose any environment name with conda env create -n NAME.
+# GPU-specific packages are installed separately by scripts/finish_setup.sh.
+name: mg-vqa
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - setuptools<81
+  - wheel
+  - ffmpeg
+  - tk
+  - pip:
+      - numpy==1.26.4
+      - scipy==1.13.1
+      - pillow==11.0.0
+      - opencv-python==4.11.0.86
+      - matplotlib==3.8.3
+      - pybullet==3.2.6
+      - pyyaml==6.0.2
+      - requests>=2.32,<3
+      - python-dotenv>=1,<2
+      - huggingface-hub==0.36.2
+      - google-genai==1.47.0
+      - openai==2.24.0
+      - trimesh==4.6.4
+      - pygments>=2.17,<3
+      - tqdm>=4.66,<5
+      - psutil>=5.9,<8
+      - pytest>=8,<9

@@ -1,0 +1,245 @@
+data:
+  root_dir: ''
+  tasks:
+  - pick
+  num_points: 2048
+  num_object_points: 1024
+  cam_coord: false
+  num_rotations: 64
+  grid_resolution: 0.01
+  jitter_scale: 0.0
+  contact_radius: 0.005
+  dist_above_table: 0.002
+  robot_prob: 1.0
+  offset_bins:
+  - 0
+  - 0.00794435329
+  - 0.0158887021
+  - 0.0238330509
+  - 0.0317773996
+  - 0.0397217484
+  - 0.0476660972
+  - 0.055610446
+  - 0.0635547948
+  - 0.0714991435
+  - 0.08
+  random_seed: -1
+  rotation_augmentation: false
+  add_depth_noise: false
+  downsample_points: false
+  downsample_to_fixed_batch_size: false
+  dataset_cls: ObjectPickDataset
+  load_patch: false
+  load_discriminator_dataset: false
+  patch_width: 256
+  prob_point_cloud: -1
+  object_root_dir: ''
+  grasp_root_dir: ''
+  dataset_name: acronym
+  dataset_version: v1
+  gripper_name: robotiq_2f_140
+  num_grasps_per_object: 1000
+  load_contact: false
+  prefiltering: false
+  discriminator_ratio:
+  - 0.5
+  - 0.2
+  - 0.25
+  - 0.05
+  - 0.0
+  visualize_batch: false
+  onpolicy_dataset_dir: null
+  onpolicy_dataset_h5_path: null
+  redundancy: 1
+  preload_dataset: false
+m2t2:
+  scene_encoder:
+    type: pointnet2_msg
+    num_points: 16384
+    downsample: 4
+    radius: 0.02
+    radius_mult: 2
+    use_rgb: false
+  object_encoder:
+    type: pointnet2_msg_cls
+    num_points: 1024
+    downsample: 4
+    radius: 0.02
+    radius_mult: 2
+    use_rgb: false
+  contact_decoder:
+    mask_feature: res0
+    in_features:
+    - res1
+    - res2
+    - res3
+    place_feature: res4
+    embed_dim: 256
+    feedforward_dim: 512
+    num_scales: 3
+    num_layers: 3
+    num_heads: 8
+    num_grasp_queries: 1000
+    num_place_queries: 0
+    use_attn_mask: true
+    use_task_embed: false
+    activation: GELU
+    pos_enc: new
+  action_decoder:
+    use_embed: false
+    conf_thresh: 0.5
+    max_num_pred: null
+    hidden_dim: 256
+    num_layers: 2
+    activation: GELU
+    offset_bins:
+    - 0
+    - 0.00794435329
+    - 0.0158887021
+    - 0.0238330509
+    - 0.0317773996
+    - 0.0397217484
+    - 0.0476660972
+    - 0.055610446
+    - 0.0635547948
+    - 0.0714991435
+    - 0.08
+    gripper_depth: 0.1034
+    gripper_name: robotiq_2f_140
+  matcher:
+    object_weight: 2.0
+    bce_weight: 5.0
+    dice_weight: 5.0
+  grasp_loss:
+    object_weight: 2.0
+    not_object_weight: 0.1
+    pseudo_ce_weight: 0.0
+    bce_topk: 512
+    bce_weight: 5.0
+    dice_weight: 5.0
+    deep_supervision: true
+    recompute_indices: true
+    adds_pred2gt: 100.0
+    adds_gt2pred: 0.0
+    adds_per_obj: false
+    contact_dir: 0.0
+    approach_dir: 0.0
+    offset: 1.0
+    offset_bin_weights:
+    - 0.16652107
+    - 0.21488856
+    - 0.37031708
+    - 0.55618503
+    - 0.75124664
+    - 0.93943357
+    - 1.07824539
+    - 1.19423112
+    - 1.55731375
+    - 3.17161779
+    gripper_name: robotiq_2f_140
+  place_loss:
+    bce_topk: 1024
+    bce_weight: 5.0
+    dice_weight: 5.0
+    deep_supervision: true
+diffusion:
+  obs_backbone: pointnet
+  checkpoint_object_encoder_pretrained: null
+  num_embed_dim: 256
+  num_obs_dim: 512
+  diffusion_embed_dim: 512
+  image_size: 256
+  num_diffusion_iters: 10
+  num_diffusion_iters_eval: 10
+  compositional_schedular: true
+  loss_pointmatching: false
+  loss_l1_pos: true
+  loss_l1_rot: true
+  grasp_repr: r3_so3
+  kappa: 2.02217
+  clip_sample: true
+  beta_schedule: squaredcos_cap_v2
+  npn_architecture: ffn
+  attention: cat_attn
+  gripper_name: robotiq_2f_140
+  pose_repr: mlp
+  num_grasps_per_object: 500
+  ptv3:
+    grid_size: 0.01
+discriminator:
+  checkpoint: graspgen_robotiq_2f_140_dis.pth 
+  checkpoint_object_encoder_pretrained: null
+  obs_backbone: pointnet
+  num_embed_dim: 256
+  num_obs_dim: 512
+  grasp_repr: r3_so3
+  pose_repr: mlp
+  topk_ratio: 0.75
+  kappa: 2.02217
+  gripper_name: robotiq_2f_140
+  ptv3:
+    grid_size: 0.01
+optimizer:
+  type: ADAMW
+  base_batch_size: 128
+  base_lr: 0.0008
+  backbone_multiplier: 1.0
+  grad_clip: -1
+  weight_decay: 0.05
+  lr_scale_multiplier: 1.0
+  lr: 5.0e-05
+  momentum: 0.9
+train:
+  model_name: m2t2
+  num_gpus: 1
+  port: '1234'
+  mask_thresh: 0.0
+  batch_size: 8
+  num_workers: 8
+  num_epochs: 160
+  print_freq: 25
+  plot_freq: 50
+  save_freq: 10
+  eval_freq: 5
+  checkpoint: null
+  log_dir: ''
+  num_scenes: null
+  debug: false
+  debug_ddp: false
+eval:
+  model_name: diffusion-discriminator
+  task: pick
+  split: valid
+  first_scene: -1
+  last_scene: 1000
+  scene: null
+  acronym_dir: ''
+  checkpoint: graspgen_robotiq_2f_140_gen.pth 
+  output_dir: null
+  exp_name: null
+  cam_coord: false
+  object_thresh: 0.0
+  mask_thresh: 0.6
+  seed_thresh: null
+  num_seed_grasps: 150
+  max_num_grasps: 200
+  retract: 0.0
+  grid_res: 0.01
+  placement_height: 0.02
+  placement_vis_radius: 0.2
+  batch_size: 1
+  num_workers: 1
+  print_freq: 1
+  num_procs: 4
+  num_vis: 5
+  num_runs: 1
+  debug: true
+  scene_file: ''
+  output_file: ''
+meshcat:
+  visualize: true
+  point_size: 0.01
+  line_width: 2
+obj:
+  scale: 1.0
+  num_sample_points: 2024

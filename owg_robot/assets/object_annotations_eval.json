@@ -1,0 +1,5556 @@
+[
+  {
+    "obj_name": "playmates_nickelodeon_teenage_mutant_ninja_turtles_shredder",
+    "source": "unified",
+    "category": "action figure",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "toy action figure",
+    "color": "grey and purple",
+    "size_cm": {
+      "length": 15.8,
+      "width": 11.5,
+      "height": 5.2
+    }
+  },
+  {
+    "obj_name": "dtc_dino3beesmeyellowankylosaurus",
+    "source": "dtc",
+    "category": "ankylosaurus toy",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "ankylosaurus toy",
+    "color": "tan",
+    "size_cm": {
+      "height": 4.32,
+      "width": 5.11,
+      "length": 14.89
+    }
+  },
+  {
+    "obj_name": "dtc_fakefruit_1025_apricot",
+    "source": "dtc",
+    "category": "apricot",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "fresh apricot",
+    "color": "orange and red",
+    "size_cm": {
+      "height": 5.37,
+      "width": 5.69,
+      "length": 7.28
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b0c36cp26s_darkarch",
+    "source": "dtc",
+    "category": "arch building block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "arch building block",
+    "color": "brown",
+    "size_cm": {
+      "height": 4.56,
+      "width": 4.59,
+      "length": 9.02
+    }
+  },
+  {
+    "obj_name": "dtc_fakefruit_b00mnbi76i_pinkpeach",
+    "source": "dtc",
+    "category": "artificial peach",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "artificial peach",
+    "color": "red and yellow",
+    "size_cm": {
+      "height": 7.31,
+      "width": 7.6,
+      "length": 7.68
+    }
+  },
+  {
+    "obj_name": "reebok_dmx_max_mania_wd_d",
+    "source": "unified",
+    "category": "athletic shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "athletic shoe",
+    "color": "white",
+    "size_cm": {
+      "length": 27.4,
+      "width": 13.6,
+      "height": 10.9
+    }
+  },
+  {
+    "obj_name": "reebok_gl_6000",
+    "source": "unified",
+    "category": "athletic shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "athletic shoe",
+    "color": "black and purple",
+    "size_cm": {
+      "length": 29.3,
+      "width": 12.9,
+      "height": 11.2
+    }
+  },
+  {
+    "obj_name": "asics_gel1140v_whiteroyalsilver",
+    "source": "unified",
+    "category": "athletic shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "athletic shoe",
+    "color": "white and blue",
+    "size_cm": {
+      "length": 28.6,
+      "width": 13.1,
+      "height": 11.5
+    }
+  },
+  {
+    "obj_name": "reebok_studio_beat_low_v",
+    "source": "unified",
+    "category": "athletic shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "black athletic shoe",
+    "color": "black and teal",
+    "size_cm": {
+      "length": 26.9,
+      "width": 11.2,
+      "height": 10.4
+    }
+  },
+  {
+    "obj_name": "samoa_onepiece",
+    "source": "unified",
+    "category": "athletic sneaker",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "athletic sneaker",
+    "color": "black and blue",
+    "size_cm": {
+      "length": 29.7,
+      "width": 11.7,
+      "height": 11.5
+    }
+  },
+  {
+    "obj_name": "dtc_spoon_b08ggb6wgv_blue",
+    "source": "dtc",
+    "category": "baby spoon",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "baby spoon",
+    "color": "blue and grey",
+    "size_cm": {
+      "height": 1.78,
+      "width": 2.42,
+      "length": 15.58
+    }
+  },
+  {
+    "obj_name": "tory_burch_kaitlin_ballet_mestico_in_blackgold",
+    "source": "unified",
+    "category": "ballet flat",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "quilted ballet flat",
+    "color": "black",
+    "size_cm": {
+      "length": 26.7,
+      "width": 12.5,
+      "height": 12.1
+    }
+  },
+  {
+    "obj_name": "rose_garden_tieks_leather_ballet_flats_with_floral_rosettes",
+    "source": "unified",
+    "category": "ballet flat",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "floral flat shoe",
+    "color": "white, pink, and teal",
+    "size_cm": {
+      "length": 25.0,
+      "width": 11.4,
+      "height": 11.2
+    }
+  },
+  {
+    "obj_name": "tieks_ballet_flats_diamond_white_croc",
+    "source": "unified",
+    "category": "ballet flat",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "white ballet flat",
+    "color": "white and teal",
+    "size_cm": {
+      "length": 24.9,
+      "width": 9.7,
+      "height": 8.0
+    }
+  },
+  {
+    "obj_name": "sienna_brown_croc_tieks_patent_leather_crocodile_print_ballet_flats",
+    "source": "unified",
+    "category": "ballet flat",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "ballet flat shoe",
+    "color": "brown and teal",
+    "size_cm": {
+      "length": 25.2,
+      "width": 12.2,
+      "height": 11.1
+    }
+  },
+  {
+    "obj_name": "crazy_shadow_2_ow4jd10hffr",
+    "source": "unified",
+    "category": "basketball shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "basketball shoe",
+    "color": "red and white",
+    "size_cm": {
+      "length": 30.3,
+      "width": 18.1,
+      "height": 12.0
+    }
+  },
+  {
+    "obj_name": "dtc_figurine_b0b2w3rdl8_greenquetzal",
+    "source": "dtc",
+    "category": "bird figurine",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "bird figurine",
+    "color": "green and black",
+    "size_cm": {
+      "height": 2.32,
+      "width": 3.8,
+      "length": 9.5
+    }
+  },
+  {
+    "obj_name": "dtc_mallard_b092d3szrl_brownyellowneck",
+    "source": "dtc",
+    "category": "bird figurine",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "bird figurine",
+    "color": "yellow, green, and orange",
+    "size_cm": {
+      "height": 3.98,
+      "width": 4.48,
+      "length": 5.83
+    }
+  },
+  {
+    "obj_name": "fisherprice_make_a_match_game_thomas_friends",
+    "source": "unified",
+    "category": "board game box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "matching game box",
+    "color": "blue",
+    "size_cm": {
+      "length": 26.8,
+      "width": 20.3,
+      "height": 5.2
+    }
+  },
+  {
+    "obj_name": "connect_4_launchers",
+    "source": "unified",
+    "category": "board game box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "board game box",
+    "color": "blue",
+    "size_cm": {
+      "length": 27.5,
+      "width": 27.0,
+      "height": 7.7
+    }
+  },
+  {
+    "obj_name": "hasbro_trivial_pursuit_family_edition_game",
+    "source": "unified",
+    "category": "board game box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "board game box",
+    "color": "light blue",
+    "size_cm": {
+      "length": 27.2,
+      "width": 20.6,
+      "height": 6.4
+    }
+  },
+  {
+    "obj_name": "timberland_mens_earthkeepers_casco_bay_suede_1eye",
+    "source": "unified",
+    "category": "boat shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "navy boat shoe",
+    "color": "navy and grey",
+    "size_cm": {
+      "length": 30.0,
+      "width": 11.8,
+      "height": 10.1
+    }
+  },
+  {
+    "obj_name": "womens_bluefish_2eye_boat_shoe_in_brown_deerskin_jj2pfehtzg7",
+    "source": "unified",
+    "category": "boat shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "navy boat shoe",
+    "color": "navy and grey",
+    "size_cm": {
+      "length": 29.1,
+      "width": 11.2,
+      "height": 9.5
+    }
+  },
+  {
+    "obj_name": "mens_bahama_in_black_b4adzyywrhl",
+    "source": "unified",
+    "category": "boat shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "grey boat shoe",
+    "color": "grey",
+    "size_cm": {
+      "length": 28.8,
+      "width": 10.5,
+      "height": 10.2
+    }
+  },
+  {
+    "obj_name": "womens_sequin_bahama_in_white_sequin_v9k1hf24oxe",
+    "source": "unified",
+    "category": "boat shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "canvas boat shoe",
+    "color": "grey",
+    "size_cm": {
+      "length": 25.7,
+      "width": 11.1,
+      "height": 9.0
+    }
+  },
+  {
+    "obj_name": "womens_suede_bahama_in_graphite_suede_cuajimhwso9",
+    "source": "unified",
+    "category": "boat shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "boat shoe",
+    "color": "black and grey",
+    "size_cm": {
+      "length": 26.4,
+      "width": 11.9,
+      "height": 8.6
+    }
+  },
+  {
+    "obj_name": "womens_bluefish_2eye_boat_shoe_in_white_tumbled_yg44xieprhw",
+    "source": "unified",
+    "category": "boat shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "white boat shoe",
+    "color": "white and tan",
+    "size_cm": {
+      "length": 25.3,
+      "width": 9.3,
+      "height": 8.9
+    }
+  },
+  {
+    "obj_name": "mens_authentic_original_boat_shoe_in_navy_leather_rpt4gvuxrrp",
+    "source": "unified",
+    "category": "boat shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "brown boat shoe",
+    "color": "brown and tan",
+    "size_cm": {
+      "length": 25.7,
+      "width": 10.7,
+      "height": 8.9
+    }
+  },
+  {
+    "obj_name": "mens_authentic_original_boat_shoe_in_navy_leather_xgoecztrnmh",
+    "source": "unified",
+    "category": "boat shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "leather boat shoe",
+    "color": "brown and tan",
+    "size_cm": {
+      "length": 25.5,
+      "width": 10.4,
+      "height": 8.6
+    }
+  },
+  {
+    "obj_name": "womens_authentic_original_boat_shoe_in_navy_deerskin_50lwjalwg8r",
+    "source": "unified",
+    "category": "boat shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "navy boat shoe",
+    "color": "navy blue and grey",
+    "size_cm": {
+      "length": 26.1,
+      "width": 10.5,
+      "height": 8.3
+    }
+  },
+  {
+    "obj_name": "womens_canvas_bahama_in_white_ufzphgqpvz0",
+    "source": "unified",
+    "category": "boat shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "boat shoe",
+    "color": "grey",
+    "size_cm": {
+      "length": 25.3,
+      "width": 11.0,
+      "height": 8.1
+    }
+  },
+  {
+    "obj_name": "dtc_candle_b09mp8ndml_white",
+    "source": "dtc",
+    "category": "bubble cube candle",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "bubble cube candle",
+    "color": "off-white",
+    "size_cm": {
+      "height": 6.18,
+      "width": 6.19,
+      "length": 6.87
+    }
+  },
+  {
+    "obj_name": "dtc_candle_b0cysxgx64_cinnamonapple",
+    "source": "dtc",
+    "category": "candle tin",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "patterned candle tin",
+    "color": "teal, brown, and white",
+    "size_cm": {
+      "height": 3.65,
+      "width": 6.29,
+      "length": 6.29
+    }
+  },
+  {
+    "obj_name": "nips_hard_candy_rich_creamy_butter_rum_4_oz_1133_g",
+    "source": "unified",
+    "category": "candy box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "hard candy box",
+    "color": "tan",
+    "size_cm": {
+      "length": 15.5,
+      "width": 9.0,
+      "height": 4.6
+    }
+  },
+  {
+    "obj_name": "polar_herring_fillets_smoked_peppered_705_oz_total",
+    "source": "unified",
+    "category": "canned food",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "oval food tin",
+    "color": "brown",
+    "size_cm": {
+      "length": 15.2,
+      "width": 8.7,
+      "height": 3.2
+    }
+  },
+  {
+    "obj_name": "santa_cruz_mens_ymsmdkff11z",
+    "source": "unified",
+    "category": "canvas slip-on shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "canvas slip-on shoe",
+    "color": "brown",
+    "size_cm": {
+      "length": 29.9,
+      "width": 11.0,
+      "height": 10.7
+    }
+  },
+  {
+    "obj_name": "mattel_skip_bo_card_game",
+    "source": "unified",
+    "category": "card game box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "card game box",
+    "color": "green and yellow",
+    "size_cm": {
+      "length": 20.6,
+      "width": 9.8,
+      "height": 3.5
+    }
+  },
+  {
+    "obj_name": "dtc_figurine_b0cjf6mmg5_hairlesscat",
+    "source": "dtc",
+    "category": "cat figurine",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "hairless cat figurine",
+    "color": "pinkish-tan",
+    "size_cm": {
+      "height": 2.37,
+      "width": 5.1,
+      "length": 6.42
+    }
+  },
+  {
+    "obj_name": "dtc_vase_b0b5g53bxc_orange",
+    "source": "dtc",
+    "category": "ceramic bottle",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "terracotta bottle",
+    "color": "orange",
+    "size_cm": {
+      "height": 6.8,
+      "width": 6.81,
+      "length": 17.31
+    }
+  },
+  {
+    "obj_name": "threshold_bead_cereal_bowl_white",
+    "source": "unified",
+    "category": "ceramic bowl",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "textured ceramic bowl",
+    "color": "gray",
+    "size_cm": {
+      "length": 17.8,
+      "width": 17.5,
+      "height": 7.3
+    }
+  },
+  {
+    "obj_name": "footed_bowl_sand",
+    "source": "unified",
+    "category": "ceramic bowl",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "ceramic bowl",
+    "color": "tan",
+    "size_cm": {
+      "length": 19.6,
+      "width": 19.5,
+      "height": 11.0
+    }
+  },
+  {
+    "obj_name": "room_essentials_mug_white_yellow",
+    "source": "unified",
+    "category": "ceramic mug",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "two-tone mug",
+    "color": "yellow and white",
+    "size_cm": {
+      "length": 15.6,
+      "width": 14.0,
+      "height": 10.7
+    }
+  },
+  {
+    "obj_name": "ecoforms_plate_s20avocado",
+    "source": "unified",
+    "category": "ceramic plate",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "green plate",
+    "color": "green",
+    "size_cm": {
+      "length": 25.3,
+      "width": 25.2,
+      "height": 3.3
+    }
+  },
+  {
+    "obj_name": "45oz_ramekin_asst_deep_colors",
+    "source": "unified",
+    "category": "ceramic ramekin",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "ceramic ramekin",
+    "color": "green",
+    "size_cm": {
+      "length": 12.6,
+      "width": 12.6,
+      "height": 4.4
+    }
+  },
+  {
+    "obj_name": "ecoforms_plant_container_s24natural",
+    "source": "unified",
+    "category": "ceramic saucer",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "ceramic saucer",
+    "color": "brown",
+    "size_cm": {
+      "length": 34.0,
+      "width": 34.0,
+      "height": 3.5
+    }
+  },
+  {
+    "obj_name": "dtc_spoon_b0c4kvyzl9_bluediamond",
+    "source": "dtc",
+    "category": "ceramic soup spoon",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "Chinese soup spoon",
+    "color": "cream and blue",
+    "size_cm": {
+      "height": 4.33,
+      "width": 4.66,
+      "length": 15.36
+    }
+  },
+  {
+    "obj_name": "dtc_vase_b0c36dqldy_smallgrey",
+    "source": "dtc",
+    "category": "ceramic vase",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "small ceramic vase",
+    "color": "brownish-grey",
+    "size_cm": {
+      "height": 7.03,
+      "width": 7.04,
+      "length": 12.63
+    }
+  },
+  {
+    "obj_name": "dtc_vase_b0brmjzk3s_orange",
+    "source": "dtc",
+    "category": "ceramic vase",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "terracotta vase",
+    "color": "terracotta",
+    "size_cm": {
+      "height": 7.52,
+      "width": 7.6,
+      "length": 13.21
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b00fix22yq_bluerectangularparallelepiped",
+    "source": "dtc",
+    "category": "cleaning sponge",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "teal rectangular sponge",
+    "color": "teal",
+    "size_cm": {
+      "height": 1.59,
+      "width": 3.06,
+      "length": 6.02
+    }
+  },
+  {
+    "obj_name": "ycbv_bleach_cleanser",
+    "source": "unified",
+    "category": "cleanser bottle",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "scrub cleanser bottle",
+    "color": "white",
+    "size_cm": {
+      "length": 26.1,
+      "width": 11.6,
+      "height": 7.0
+    }
+  },
+  {
+    "obj_name": "asics_gellinksmaster_whitecoffeesand",
+    "source": "unified",
+    "category": "cleated athletic shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "cleated athletic shoe",
+    "color": "white and brown",
+    "size_cm": {
+      "length": 30.4,
+      "width": 14.6,
+      "height": 12.0
+    }
+  },
+  {
+    "obj_name": "ycbv_master_chef_can",
+    "source": "unified",
+    "category": "coffee can",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "coffee can",
+    "color": "blue",
+    "size_cm": {
+      "length": 14.1,
+      "width": 11.2,
+      "height": 11.2
+    }
+  },
+  {
+    "obj_name": "dtc_mouse_b082m9d31r_ledblack_1",
+    "source": "dtc",
+    "category": "computer mouse",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "computer mouse",
+    "color": "black",
+    "size_cm": {
+      "height": 2.63,
+      "width": 5.83,
+      "length": 11.32
+    }
+  },
+  {
+    "obj_name": "dtc_mouse_b0bpp8m5jw_rose_1",
+    "source": "dtc",
+    "category": "computer mouse",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "computer mouse",
+    "color": "pink",
+    "size_cm": {
+      "height": 3.52,
+      "width": 6.12,
+      "length": 9.75
+    }
+  },
+  {
+    "obj_name": "dtc_mouse_b0c97brd42_princess",
+    "source": "dtc",
+    "category": "computer mouse",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "computer mouse",
+    "color": "pink and white",
+    "size_cm": {
+      "height": 3.85,
+      "width": 6.28,
+      "length": 10.57
+    }
+  },
+  {
+    "obj_name": "handal_obj_025",
+    "source": "unified",
+    "category": "cordless drill",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "cordless drill",
+    "color": "red and black",
+    "size_cm": {
+      "length": 22.7,
+      "width": 18.9,
+      "height": 8.1
+    }
+  },
+  {
+    "obj_name": "handal_obj_020",
+    "source": "unified",
+    "category": "cordless impact driver",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "cordless impact driver",
+    "color": "lime green and black",
+    "size_cm": {
+      "length": 22.3,
+      "width": 17.1,
+      "height": 8.2
+    }
+  },
+  {
+    "obj_name": "hb_obj_007",
+    "source": "unified",
+    "category": "cordless power drill",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "cordless power drill",
+    "color": "dark green and black",
+    "size_cm": {
+      "length": 23.7,
+      "width": 21.8,
+      "height": 10.0
+    }
+  },
+  {
+    "obj_name": "itodd_obj_006",
+    "source": "unified",
+    "category": "corner bracket",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "metal screw bracket",
+    "color": "silver",
+    "size_cm": {
+      "length": 9.3,
+      "width": 8.0,
+      "height": 7.0
+    }
+  },
+  {
+    "obj_name": "dtc_marker_b07z5p84j2_orange",
+    "source": "dtc",
+    "category": "cosmetic pencil",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "makeup pencil",
+    "color": "black and yellow",
+    "size_cm": {
+      "height": 1.1,
+      "width": 1.11,
+      "length": 16.02
+    }
+  },
+  {
+    "obj_name": "hb_obj_005",
+    "source": "unified",
+    "category": "cow figurine",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "cow figurine",
+    "color": "white and black",
+    "size_cm": {
+      "length": 22.9,
+      "width": 16.4,
+      "height": 10.2
+    }
+  },
+  {
+    "obj_name": "hb_obj_018",
+    "source": "unified",
+    "category": "cracker box",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "biscuit box",
+    "color": "blue",
+    "size_cm": {
+      "length": 20.4,
+      "width": 6.4,
+      "height": 6.0
+    }
+  },
+  {
+    "obj_name": "dtc_candle_b00gcild64_pink_1",
+    "source": "dtc",
+    "category": "crayon box",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "pink crayon",
+    "color": "pink",
+    "size_cm": {
+      "height": 1.17,
+      "width": 1.23,
+      "length": 11.51
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b00fix22yq_bluesmallcylinder",
+    "source": "dtc",
+    "category": "cylindrical block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "cylindrical block",
+    "color": "blue",
+    "size_cm": {
+      "height": 2.99,
+      "width": 3.0,
+      "length": 3.42
+    }
+  },
+  {
+    "obj_name": "dtc_candle_b0d17xw9nr_darkbluesmall",
+    "source": "dtc",
+    "category": "decorative candle",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "spiral decorative candle",
+    "color": "teal",
+    "size_cm": {
+      "height": 5.19,
+      "width": 5.21,
+      "length": 7.06
+    }
+  },
+  {
+    "obj_name": "dtc_candle_b0d17xw9nr_lightbluetall",
+    "source": "dtc",
+    "category": "decorative tassel",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "curtain tieback tassel",
+    "color": "teal",
+    "size_cm": {
+      "height": 4.63,
+      "width": 5.03,
+      "length": 14.47
+    }
+  },
+  {
+    "obj_name": "markings_letter_holder",
+    "source": "unified",
+    "category": "desk organizer",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "leather desk organizer",
+    "color": "brown",
+    "size_cm": {
+      "length": 19.9,
+      "width": 14.2,
+      "height": 10.0
+    }
+  },
+  {
+    "obj_name": "dino_4",
+    "source": "unified",
+    "category": "dinosaur figurine",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "toy dinosaur figurine",
+    "color": "brown",
+    "size_cm": {
+      "length": 13.8,
+      "width": 9.6,
+      "height": 6.4
+    }
+  },
+  {
+    "obj_name": "room_essentials_kitchen_towels_16_x_26_2_count",
+    "source": "unified",
+    "category": "dish towel",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "folded dish towels",
+    "color": "grey and white",
+    "size_cm": {
+      "length": 18.8,
+      "width": 15.6,
+      "height": 8.5
+    }
+  },
+  {
+    "obj_name": "toysmith_windem_up_flippin_animals_dog",
+    "source": "unified",
+    "category": "dog figurine",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "dog figurine",
+    "color": "cream and brown",
+    "size_cm": {
+      "length": 5.9,
+      "width": 5.7,
+      "height": 4.3
+    }
+  },
+  {
+    "obj_name": "dtc_figurine_b0cjjprqmk_dragonredfish",
+    "source": "dtc",
+    "category": "dragon figurine",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "dragon figurine",
+    "color": "red, white, and blue",
+    "size_cm": {
+      "height": 2.69,
+      "width": 3.04,
+      "length": 3.16
+    }
+  },
+  {
+    "obj_name": "dtc_figurine_b0cjjprqmk_dragonlayingonside",
+    "source": "dtc",
+    "category": "dragon figurine",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "dragon figurine",
+    "color": "white, blue, and yellow",
+    "size_cm": {
+      "height": 2.58,
+      "width": 2.64,
+      "length": 3.64
+    }
+  },
+  {
+    "obj_name": "ycbv_large_marker",
+    "source": "unified",
+    "category": "dry erase marker",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "dry erase marker",
+    "color": "white and black",
+    "size_cm": {
+      "length": 12.1,
+      "width": 2.7,
+      "height": 2.4
+    }
+  },
+  {
+    "obj_name": "dtc_mallard_b0c64skcz7_yellowraincoatbluebowtie",
+    "source": "dtc",
+    "category": "duck figurine",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "duck figurine",
+    "color": "yellow and white",
+    "size_cm": {
+      "height": 2.53,
+      "width": 2.75,
+      "length": 3.41
+    }
+  },
+  {
+    "obj_name": "dtc_mallard_b0b2ls8rrm_medium",
+    "source": "dtc",
+    "category": "duck trinket box",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "duck trinket box",
+    "color": "yellow",
+    "size_cm": {
+      "height": 3.33,
+      "width": 3.63,
+      "length": 4.97
+    }
+  },
+  {
+    "obj_name": "cole_hardware_antislip_surfacing_material_white",
+    "source": "unified",
+    "category": "duct tape roll",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "duct tape roll",
+    "color": "silver",
+    "size_cm": {
+      "length": 19.1,
+      "width": 18.9,
+      "height": 10.9
+    }
+  },
+  {
+    "obj_name": "dtc_dumbbell_b0c8kq3klv_forestgreen",
+    "source": "dtc",
+    "category": "dumbbell",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "teal dumbbell",
+    "color": "teal",
+    "size_cm": {
+      "height": 6.91,
+      "width": 7.59,
+      "length": 17.28
+    }
+  },
+  {
+    "obj_name": "justified_the_complete_fourth_season_3_discs_dvd",
+    "source": "unified",
+    "category": "dvd box set",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "DVD box set",
+    "color": "teal and black",
+    "size_cm": {
+      "length": 19.5,
+      "width": 14.3,
+      "height": 2.3
+    }
+  },
+  {
+    "obj_name": "blue_jasmine_includes_digital_copy_ultraviolet_dvd",
+    "source": "unified",
+    "category": "dvd case",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "DVD case",
+    "color": "black and white",
+    "size_cm": {
+      "length": 19.3,
+      "width": 13.8,
+      "height": 1.8
+    }
+  },
+  {
+    "obj_name": "dtc_figurine_b0bqlpnk75_pinkchick",
+    "source": "dtc",
+    "category": "easter chick figurine",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "Easter chick figurine",
+    "color": "pink and yellow",
+    "size_cm": {
+      "height": 6.24,
+      "width": 6.74,
+      "length": 9.82
+    }
+  },
+  {
+    "obj_name": "dtc_shaver_b09qw879t3_gold",
+    "source": "dtc",
+    "category": "electric foil shaver",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "electric foil shaver",
+    "color": "black",
+    "size_cm": {
+      "height": 4.37,
+      "width": 6.41,
+      "length": 12.77
+    }
+  },
+  {
+    "obj_name": "dtc_shaver_b0c4h1k6g6_black",
+    "source": "dtc",
+    "category": "electric rotary shaver",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "electric rotary shaver",
+    "color": "black",
+    "size_cm": {
+      "height": 2.65,
+      "width": 5.45,
+      "length": 6.6
+    }
+  },
+  {
+    "obj_name": "dtc_shaver_b0cw6lk3td_white",
+    "source": "dtc",
+    "category": "electric shaver",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "electric nose trimmer",
+    "color": "light gray and black",
+    "size_cm": {
+      "height": 2.86,
+      "width": 3.24,
+      "length": 15.2
+    }
+  },
+  {
+    "obj_name": "sonicare_2_series_toothbrush_plaque_control",
+    "source": "unified",
+    "category": "electric toothbrush box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "electric toothbrush box",
+    "color": "white and blue",
+    "size_cm": {
+      "length": 24.5,
+      "width": 17.9,
+      "height": 10.6
+    }
+  },
+  {
+    "obj_name": "hb_obj_017",
+    "source": "unified",
+    "category": "electrical contactor",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "electrical contactor",
+    "color": "black",
+    "size_cm": {
+      "length": 12.5,
+      "width": 7.9,
+      "height": 4.9
+    }
+  },
+  {
+    "obj_name": "dtc_mouse_b0b12f8n3s_blackarch",
+    "source": "dtc",
+    "category": "ergonomic computer mouse",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "ergonomic computer mouse",
+    "color": "black and orange",
+    "size_cm": {
+      "height": 6.84,
+      "width": 7.28,
+      "length": 13.66
+    }
+  },
+  {
+    "obj_name": "seagate_1tb_backup_plus_portable_drive_silver",
+    "source": "unified",
+    "category": "external hard drive",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "external hard drive",
+    "color": "gray",
+    "size_cm": {
+      "length": 12.4,
+      "width": 8.2,
+      "height": 1.7
+    }
+  },
+  {
+    "obj_name": "dtc_marker_b07z5p84j2_darkbrown",
+    "source": "dtc",
+    "category": "eyeliner pencil",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "eyeliner pencil",
+    "color": "brown",
+    "size_cm": {
+      "height": 1.08,
+      "width": 1.12,
+      "length": 16.0
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b098phyn3p_largeoctagon",
+    "source": "dtc",
+    "category": "faceted wooden block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "faceted wooden block",
+    "color": "light brown",
+    "size_cm": {
+      "height": 4.6,
+      "width": 4.61,
+      "length": 4.64
+    }
+  },
+  {
+    "obj_name": "retail_leadership_summit_ect3zqhyikx",
+    "source": "unified",
+    "category": "fedora hat",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "fedora hat",
+    "color": "grey",
+    "size_cm": {
+      "length": 28.1,
+      "width": 25.1,
+      "height": 12.6
+    }
+  },
+  {
+    "obj_name": "dtc_marker_b003hcqkso_red_tu",
+    "source": "dtc",
+    "category": "felt-tip marker",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "red marker",
+    "color": "red and white",
+    "size_cm": {
+      "height": 1.56,
+      "width": 1.59,
+      "length": 13.73
+    }
+  },
+  {
+    "obj_name": "dtc_marker_x00359kmed_green_tu",
+    "source": "dtc",
+    "category": "felt-tip marker",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "green marker",
+    "color": "green and grey",
+    "size_cm": {
+      "height": 1.17,
+      "width": 1.57,
+      "length": 14.44
+    }
+  },
+  {
+    "obj_name": "dtc_marker_b003hcqkso_orange_tu",
+    "source": "dtc",
+    "category": "felt-tip marker",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "orange marker",
+    "color": "orange and white",
+    "size_cm": {
+      "height": 1.56,
+      "width": 1.57,
+      "length": 13.68
+    }
+  },
+  {
+    "obj_name": "dtc_marker_64c3702d_orange_2_tu",
+    "source": "dtc",
+    "category": "felt-tip pen",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "red capped pen",
+    "color": "red",
+    "size_cm": {
+      "height": 1.14,
+      "width": 1.67,
+      "length": 13.68
+    }
+  },
+  {
+    "obj_name": "mens_santa_cruz_thong_in_chocolate_la1fo2maove",
+    "source": "unified",
+    "category": "flip-flop sandal",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "flip-flop sandal",
+    "color": "brown and tan",
+    "size_cm": {
+      "length": 30.4,
+      "width": 14.5,
+      "height": 8.6
+    }
+  },
+  {
+    "obj_name": "reebok_zigstorm",
+    "source": "unified",
+    "category": "flip-flop sandal",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "blue and yellow sandal",
+    "color": "blue and yellow",
+    "size_cm": {
+      "length": 26.7,
+      "width": 12.5,
+      "height": 10.8
+    }
+  },
+  {
+    "obj_name": "ecoforms_plant_pot_gp9_sand",
+    "source": "unified",
+    "category": "flower pot",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "biodegradable plant pot",
+    "color": "brown",
+    "size_cm": {
+      "length": 12.0,
+      "width": 12.0,
+      "height": 8.7
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b00fix22yq_yellowcuboid",
+    "source": "dtc",
+    "category": "foam block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "foam block",
+    "color": "yellow",
+    "size_cm": {
+      "height": 3.08,
+      "width": 3.08,
+      "length": 6.01
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b00fix22yq_greenlargecylinder",
+    "source": "dtc",
+    "category": "foam cylinder",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "foam cylinder",
+    "color": "green",
+    "size_cm": {
+      "height": 3.01,
+      "width": 3.04,
+      "length": 6.03
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b0b1vj8l65_purpleplainlargecylinder",
+    "source": "dtc",
+    "category": "foam earplug",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "foam earplug",
+    "color": "purple",
+    "size_cm": {
+      "height": 3.0,
+      "width": 3.01,
+      "length": 6.08
+    }
+  },
+  {
+    "obj_name": "tag_dishtowel_basket_weave_red_18_x_26",
+    "source": "unified",
+    "category": "folded kitchen towel",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "folded kitchen towel",
+    "color": "red and white",
+    "size_cm": {
+      "length": 23.6,
+      "width": 17.3,
+      "height": 4.7
+    }
+  },
+  {
+    "obj_name": "cole_hardware_dishtowel_bluewhite",
+    "source": "unified",
+    "category": "folded towel",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "striped hand towel",
+    "color": "blue, white, and tan",
+    "size_cm": {
+      "length": 23.7,
+      "width": 17.4,
+      "height": 3.3
+    }
+  },
+  {
+    "obj_name": "dtc_figurine_b0bwygn3tf_goldlionglobe_1",
+    "source": "dtc",
+    "category": "foo dog statue",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "foo dog statue",
+    "color": "brown",
+    "size_cm": {
+      "height": 3.81,
+      "width": 4.53,
+      "length": 6.85
+    }
+  },
+  {
+    "obj_name": "black_forest_fruit_snacks_28_pack_grape",
+    "source": "unified",
+    "category": "fruit snack box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "fruit snack box",
+    "color": "light blue and green",
+    "size_cm": {
+      "length": 26.1,
+      "width": 21.9,
+      "height": 9.3
+    }
+  },
+  {
+    "obj_name": "pok\u00e9mon_yellow_special_pikachu_edition_nintendo_game_boy_color",
+    "source": "unified",
+    "category": "game cartridge",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "handheld game cartridge",
+    "color": "yellow",
+    "size_cm": {
+      "length": 6.6,
+      "width": 5.8,
+      "height": 1.2
+    }
+  },
+  {
+    "obj_name": "dtc_mouse_b0b8259cnq_black",
+    "source": "dtc",
+    "category": "gaming mouse",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "gaming mouse",
+    "color": "black",
+    "size_cm": {
+      "height": 4.2,
+      "width": 7.58,
+      "length": 13.06
+    }
+  },
+  {
+    "obj_name": "dtc_gargoyle_b07gjvclfc_blackhalfopenmouth_1",
+    "source": "dtc",
+    "category": "gargoyle figurine",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "gargoyle figurine",
+    "color": "dark grey",
+    "size_cm": {
+      "height": 3.19,
+      "width": 3.47,
+      "length": 5.65
+    }
+  },
+  {
+    "obj_name": "dtc_gargoyle_b00n08iu24_dog",
+    "source": "dtc",
+    "category": "gargoyle statue",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "gargoyle statue",
+    "color": "dark gray",
+    "size_cm": {
+      "height": 4.51,
+      "width": 5.98,
+      "length": 7.98
+    }
+  },
+  {
+    "obj_name": "orbit_bubblemint_mini_bottle_6_ct",
+    "source": "unified",
+    "category": "gum box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "multi-pack gum box",
+    "color": "pink and yellow",
+    "size_cm": {
+      "length": 21.1,
+      "width": 12.0,
+      "height": 7.0
+    }
+  },
+  {
+    "obj_name": "just_for_men_mustache_beard_brushin_hair_color_gel_mediumdark_brown_m40",
+    "source": "unified",
+    "category": "hair dye box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "beard dye box",
+    "color": "purple and white",
+    "size_cm": {
+      "length": 14.8,
+      "width": 8.1,
+      "height": 5.0
+    }
+  },
+  {
+    "obj_name": "marc_anthony_true_professional_oil_of_morocco_argan_oil_treatment",
+    "source": "unified",
+    "category": "hair product box",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "hair product box",
+    "color": "teal",
+    "size_cm": {
+      "length": 16.3,
+      "width": 6.7,
+      "height": 4.0
+    }
+  },
+  {
+    "obj_name": "dtc_calculator_b08xqc893y_greenblue",
+    "source": "dtc",
+    "category": "handheld calculator",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toy calculator",
+    "color": "green",
+    "size_cm": {
+      "height": 1.35,
+      "width": 6.42,
+      "length": 9.78
+    }
+  },
+  {
+    "obj_name": "blackblack_nintendo_3dsxl",
+    "source": "unified",
+    "category": "handheld game console",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "handheld game console",
+    "color": "black and blue",
+    "size_cm": {
+      "length": 16.6,
+      "width": 15.6,
+      "height": 12.9
+    }
+  },
+  {
+    "obj_name": "crazy_shadow_2",
+    "source": "unified",
+    "category": "high-top basketball shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "high-top basketball shoe",
+    "color": "white and black",
+    "size_cm": {
+      "length": 30.3,
+      "width": 17.2,
+      "height": 12.9
+    }
+  },
+  {
+    "obj_name": "womens_betty_chukka_boot_in_navy_jersey_sequin_y0sshk7dkux",
+    "source": "unified",
+    "category": "high-top boat shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "high-top boat shoe",
+    "color": "blue and white",
+    "size_cm": {
+      "length": 25.2,
+      "width": 11.3,
+      "height": 9.9
+    }
+  },
+  {
+    "obj_name": "reebok_fs_hi_mini",
+    "source": "unified",
+    "category": "high-top sneaker",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "high-top sneaker",
+    "color": "black and white",
+    "size_cm": {
+      "length": 26.4,
+      "width": 13.0,
+      "height": 10.4
+    }
+  },
+  {
+    "obj_name": "womens_betty_chukka_boot_in_grey_jersey_sequin",
+    "source": "unified",
+    "category": "high-top sneaker",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "grey high-top shoe",
+    "color": "grey",
+    "size_cm": {
+      "length": 25.3,
+      "width": 12.0,
+      "height": 9.9
+    }
+  },
+  {
+    "obj_name": "reebok_kamikaze_ii_mid",
+    "source": "unified",
+    "category": "high-top sneaker",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "high-top sneaker",
+    "color": "white and black",
+    "size_cm": {
+      "length": 30.3,
+      "width": 21.0,
+      "height": 14.5
+    }
+  },
+  {
+    "obj_name": "dtc_mouse_b0chnvbblf_honeycomb_1",
+    "source": "dtc",
+    "category": "honeycomb gaming mouse",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "honeycomb gaming mouse",
+    "color": "gray",
+    "size_cm": {
+      "height": 4.12,
+      "width": 6.95,
+      "length": 12.39
+    }
+  },
+  {
+    "obj_name": "dtc_figurine_b01n7b2ghg_brownhorse2",
+    "source": "dtc",
+    "category": "horse figurine",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "horse figurine",
+    "color": "brown",
+    "size_cm": {
+      "height": 2.21,
+      "width": 4.66,
+      "length": 6.87
+    }
+  },
+  {
+    "obj_name": "office_depot_canon_cli36_remanufactured_ink_cartridge_tricolor",
+    "source": "unified",
+    "category": "ink cartridge box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "ink cartridge box",
+    "color": "white",
+    "size_cm": {
+      "length": 14.9,
+      "width": 8.7,
+      "height": 5.4
+    }
+  },
+  {
+    "obj_name": "dell_ink_cartridge_yellow_31",
+    "source": "unified",
+    "category": "ink cartridge box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "ink cartridge box",
+    "color": "green and white",
+    "size_cm": {
+      "length": 14.2,
+      "width": 10.2,
+      "height": 3.6
+    }
+  },
+  {
+    "obj_name": "epson_ink_cartridge_126_yellow",
+    "source": "unified",
+    "category": "ink cartridge box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "ink cartridge box",
+    "color": "blue and white",
+    "size_cm": {
+      "length": 11.8,
+      "width": 11.4,
+      "height": 3.0
+    }
+  },
+  {
+    "obj_name": "office_depot_canon_cl211xl_remanufactured_ink_cartridge_tricolor",
+    "source": "unified",
+    "category": "ink cartridge box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "ink cartridge box",
+    "color": "white and red",
+    "size_cm": {
+      "length": 11.8,
+      "width": 8.6,
+      "height": 4.9
+    }
+  },
+  {
+    "obj_name": "office_depot_canon_pgi5bk_remanufactured_ink_cartridge_black",
+    "source": "unified",
+    "category": "ink cartridge box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "ink cartridge box",
+    "color": "white and red",
+    "size_cm": {
+      "length": 11.8,
+      "width": 8.7,
+      "height": 4.9
+    }
+  },
+  {
+    "obj_name": "canon_pixma_ink_cartridge_251_m",
+    "source": "unified",
+    "category": "ink cartridge box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "ink cartridge box",
+    "color": "white and red",
+    "size_cm": {
+      "length": 11.2,
+      "width": 9.8,
+      "height": 2.5
+    }
+  },
+  {
+    "obj_name": "dell_ink_cartridge",
+    "source": "unified",
+    "category": "ink cartridge box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "ink cartridge box",
+    "color": "green and white",
+    "size_cm": {
+      "length": 14.2,
+      "width": 10.4,
+      "height": 5.4
+    }
+  },
+  {
+    "obj_name": "office_depot_dell_series_1_remanufactured_ink_cartridge_tricolor",
+    "source": "unified",
+    "category": "ink cartridge box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "ink cartridge box",
+    "color": "white and green",
+    "size_cm": {
+      "length": 11.8,
+      "width": 8.6,
+      "height": 5.1
+    }
+  },
+  {
+    "obj_name": "office_depot_canon_cli_8y_ink_cartridge_yellow_0623b002",
+    "source": "unified",
+    "category": "ink cartridge box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "ink cartridge box",
+    "color": "white, red, and yellow",
+    "size_cm": {
+      "length": 11.9,
+      "width": 8.7,
+      "height": 5.1
+    }
+  },
+  {
+    "obj_name": "office_depot_dell_series_11_remanufactured_ink_cartridge_tricolor",
+    "source": "unified",
+    "category": "ink cartridge box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "ink cartridge box",
+    "color": "white",
+    "size_cm": {
+      "length": 14.8,
+      "width": 8.7,
+      "height": 5.1
+    }
+  },
+  {
+    "obj_name": "nescafe_momento_mocha_specialty_coffee_mix_8_ct",
+    "source": "unified",
+    "category": "instant coffee box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "instant coffee box",
+    "color": "brown and white",
+    "size_cm": {
+      "length": 16.2,
+      "width": 9.2,
+      "height": 6.6
+    }
+  },
+  {
+    "obj_name": "dtc_knife_b0chsg2m7h_blue",
+    "source": "dtc",
+    "category": "kitchen knife",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "serrated knife",
+    "color": "black",
+    "size_cm": {
+      "height": 2.31,
+      "width": 4.19,
+      "length": 28.0
+    }
+  },
+  {
+    "obj_name": "handal_obj_036",
+    "source": "unified",
+    "category": "kitchen whisk",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "kitchen whisk",
+    "color": "black",
+    "size_cm": {
+      "length": 24.5,
+      "width": 9.4,
+      "height": 7.9
+    }
+  },
+  {
+    "obj_name": "dtc_fakefruit_b09992t572_kiwi",
+    "source": "dtc",
+    "category": "kiwi fruit",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "kiwi fruit",
+    "color": "brown",
+    "size_cm": {
+      "height": 4.78,
+      "width": 5.11,
+      "length": 6.4
+    }
+  },
+  {
+    "obj_name": "epson_labelworks_lc4wbn9_tape_reel_labels_047_x_295_roll_black_on_white",
+    "source": "unified",
+    "category": "label tape box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "label tape box",
+    "color": "blue and grey",
+    "size_cm": {
+      "length": 12.5,
+      "width": 8.9,
+      "height": 4.3
+    }
+  },
+  {
+    "obj_name": "womens_hikerfish_boot_in_linen_leather_sparkle_suede_qktiyakonru",
+    "source": "unified",
+    "category": "lace-up ankle boot",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "lace-up ankle boot",
+    "color": "beige and grey",
+    "size_cm": {
+      "length": 25.5,
+      "width": 20.1,
+      "height": 11.3
+    }
+  },
+  {
+    "obj_name": "womens_hikerfish_boot_in_linen_leather_sparkle_suede_imlp8vkwqih",
+    "source": "unified",
+    "category": "lace-up boot",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "lace-up boot",
+    "color": "beige and tan",
+    "size_cm": {
+      "length": 25.8,
+      "width": 20.3,
+      "height": 11.9
+    }
+  },
+  {
+    "obj_name": "sperry_topsider_tnb9t6ybuf3",
+    "source": "unified",
+    "category": "leather ankle boot",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "leather ankle boot",
+    "color": "brown",
+    "size_cm": {
+      "length": 25.2,
+      "width": 20.7,
+      "height": 13.2
+    }
+  },
+  {
+    "obj_name": "tory_burch_kiernan_riding_boot",
+    "source": "unified",
+    "category": "leather boot",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "leather boot",
+    "color": "brown",
+    "size_cm": {
+      "length": 31.1,
+      "width": 28.3,
+      "height": 11.2
+    }
+  },
+  {
+    "obj_name": "mens_tremont_kiltie_tassel_loafer_in_black_amaretto_ft0i9ojsa6o",
+    "source": "unified",
+    "category": "leather loafer",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "brown leather loafer",
+    "color": "brown",
+    "size_cm": {
+      "length": 30.4,
+      "width": 12.1,
+      "height": 10.6
+    }
+  },
+  {
+    "obj_name": "dtc_fakefruit_b09992t572_lemonlarge",
+    "source": "dtc",
+    "category": "lemon",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "yellow lemon",
+    "color": "yellow",
+    "size_cm": {
+      "height": 6.52,
+      "width": 6.65,
+      "length": 9.33
+    }
+  },
+  {
+    "obj_name": "womens_hikerfish_boot_in_black_leopard_ridccwsv8rw",
+    "source": "unified",
+    "category": "leopard print boot",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "leopard print boot",
+    "color": "black and leopard",
+    "size_cm": {
+      "length": 26.6,
+      "width": 19.1,
+      "height": 15.0
+    }
+  },
+  {
+    "obj_name": "dtc_fakefruit_b09992t572_greenlime_1",
+    "source": "dtc",
+    "category": "lime",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "green lime",
+    "color": "green",
+    "size_cm": {
+      "height": 5.17,
+      "width": 5.2,
+      "length": 7.42
+    }
+  },
+  {
+    "obj_name": "dtc_marker_b07z5p84j2_reddishpink",
+    "source": "dtc",
+    "category": "lip liner pencil",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "lip liner pencil",
+    "color": "black and dark red",
+    "size_cm": {
+      "height": 1.07,
+      "width": 1.1,
+      "length": 15.97
+    }
+  },
+  {
+    "obj_name": "dtc_fakefruit_9338e_mangosteen",
+    "source": "dtc",
+    "category": "mangosteen fruit",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "mangosteen fruit",
+    "color": "dark purple",
+    "size_cm": {
+      "height": 6.53,
+      "width": 6.55,
+      "length": 7.09
+    }
+  },
+  {
+    "obj_name": "oxo_soft_works_can_opener_snaplock",
+    "source": "unified",
+    "category": "manual can opener",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "manual can opener",
+    "color": "black",
+    "size_cm": {
+      "length": 18.5,
+      "width": 8.7,
+      "height": 7.1
+    }
+  },
+  {
+    "obj_name": "dtc_marker_b07z5p84j2_yellow",
+    "source": "dtc",
+    "category": "marker",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "dual-tip marker",
+    "color": "black and yellow",
+    "size_cm": {
+      "height": 1.08,
+      "width": 1.1,
+      "length": 15.99
+    }
+  },
+  {
+    "obj_name": "3m_antislip_surfacing_light_duty_white",
+    "source": "unified",
+    "category": "masking tape roll",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "masking tape",
+    "color": "off-white",
+    "size_cm": {
+      "length": 18.7,
+      "width": 18.7,
+      "height": 3.0
+    }
+  },
+  {
+    "obj_name": "handal_obj_018",
+    "source": "unified",
+    "category": "measuring cup",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "measuring cup",
+    "color": "green",
+    "size_cm": {
+      "length": 17.9,
+      "width": 12.1,
+      "height": 4.2
+    }
+  },
+  {
+    "obj_name": "handal_obj_015",
+    "source": "unified",
+    "category": "measuring spoon",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "measuring spoon",
+    "color": "grey",
+    "size_cm": {
+      "length": 12.7,
+      "width": 4.5,
+      "height": 2.1
+    }
+  },
+  {
+    "obj_name": "itodd_obj_015",
+    "source": "unified",
+    "category": "mechanical part",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "engine cylinder block",
+    "color": "grey",
+    "size_cm": {
+      "length": 8.8,
+      "width": 8.2,
+      "height": 7.3
+    }
+  },
+  {
+    "obj_name": "hb_obj_013",
+    "source": "unified",
+    "category": "mechanical part",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "turbine blade",
+    "color": "black",
+    "size_cm": {
+      "length": 14.0,
+      "width": 8.5,
+      "height": 5.0
+    }
+  },
+  {
+    "obj_name": "gopro_hero3_composite_cable",
+    "source": "unified",
+    "category": "mechanical part",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "RCA cable",
+    "color": "black, yellow, white, red",
+    "size_cm": {
+      "length": 10.3,
+      "width": 5.1,
+      "height": 3.8
+    }
+  },
+  {
+    "obj_name": "qabsorb_coq10_53iuqjwjw3o",
+    "source": "unified",
+    "category": "medicine bottle",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "medicine bottle",
+    "color": "white",
+    "size_cm": {
+      "length": 10.0,
+      "width": 6.6,
+      "height": 6.6
+    }
+  },
+  {
+    "obj_name": "black_elderberry_syrup_54_oz_gaia_herbs",
+    "source": "unified",
+    "category": "medicine box",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "medicine box",
+    "color": "white and green",
+    "size_cm": {
+      "length": 14.6,
+      "width": 6.1,
+      "height": 5.7
+    }
+  },
+  {
+    "obj_name": "handal_obj_032",
+    "source": "unified",
+    "category": "mesh kitchen strainer",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "mesh kitchen strainer",
+    "color": "green and grey",
+    "size_cm": {
+      "length": 25.9,
+      "width": 15.4,
+      "height": 7.6
+    }
+  },
+  {
+    "obj_name": "xyzibd_obj_012",
+    "source": "unified",
+    "category": "metal ruler",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "metal ruler",
+    "color": "grey",
+    "size_cm": {
+      "length": 27.0,
+      "width": 3.2,
+      "height": 0.5
+    }
+  },
+  {
+    "obj_name": "dtc_gravestone_b005mguqaq_dear",
+    "source": "dtc",
+    "category": "miniature tombstone",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "miniature tombstone",
+    "color": "grey and tan",
+    "size_cm": {
+      "height": 2.15,
+      "width": 3.47,
+      "length": 3.59
+    }
+  },
+  {
+    "obj_name": "dtc_gravestone_b077jghs6j_cross",
+    "source": "dtc",
+    "category": "miniature tombstone",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "miniature cross tombstone",
+    "color": "gray",
+    "size_cm": {
+      "height": 4.69,
+      "width": 5.35,
+      "length": 10.01
+    }
+  },
+  {
+    "obj_name": "crayola_model_magic_modeling_material_white_3_oz",
+    "source": "unified",
+    "category": "modeling clay box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "modeling clay box",
+    "color": "green and yellow",
+    "size_cm": {
+      "length": 21.9,
+      "width": 13.0,
+      "height": 5.7
+    }
+  },
+  {
+    "obj_name": "perricone_md_face_finishing_moisturizer_4_oz",
+    "source": "unified",
+    "category": "moisturizer box",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "moisturizer box",
+    "color": "light gray",
+    "size_cm": {
+      "length": 7.9,
+      "width": 7.9,
+      "height": 5.2
+    }
+  },
+  {
+    "obj_name": "sapphire_r7_260x_oc",
+    "source": "unified",
+    "category": "motherboard box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "graphics card box",
+    "color": "red and black",
+    "size_cm": {
+      "length": 27.5,
+      "width": 17.3,
+      "height": 7.4
+    }
+  },
+  {
+    "obj_name": "xyzibd_obj_011",
+    "source": "unified",
+    "category": "mounting bracket",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "metal mounting bracket",
+    "color": "grey",
+    "size_cm": {
+      "length": 16.6,
+      "width": 4.6,
+      "height": 4.0
+    }
+  },
+  {
+    "obj_name": "ipd_obj_018",
+    "source": "unified",
+    "category": "mounting bracket",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "metal T-bracket",
+    "color": "grey",
+    "size_cm": {
+      "length": 12.7,
+      "width": 12.7,
+      "height": 0.2
+    }
+  },
+  {
+    "obj_name": "dtc_figurine_b0c7qpsyxg_hedgehog",
+    "source": "dtc",
+    "category": "mushroom figurine",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "hedgehog mushroom figurine",
+    "color": "brown, tan, and red",
+    "size_cm": {
+      "height": 4.95,
+      "width": 7.93,
+      "length": 9.99
+    }
+  },
+  {
+    "obj_name": "diamond_visions_scissors_red",
+    "source": "unified",
+    "category": "pair of scissors",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "red handled scissors",
+    "color": "red and silver",
+    "size_cm": {
+      "length": 21.0,
+      "width": 8.1,
+      "height": 1.8
+    }
+  },
+  {
+    "obj_name": "dtc_knife_b0chsg2m7h_lightblue",
+    "source": "dtc",
+    "category": "paring knife",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "paring knife",
+    "color": "dark blue",
+    "size_cm": {
+      "height": 1.85,
+      "width": 3.52,
+      "length": 20.31
+    }
+  },
+  {
+    "obj_name": "big_dot_aqua_pencil_case",
+    "source": "unified",
+    "category": "pencil case",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "polka dot pencil case",
+    "color": "purple and green",
+    "size_cm": {
+      "length": 21.0,
+      "width": 13.2,
+      "height": 13.0
+    }
+  },
+  {
+    "obj_name": "dtc_marker_b00006ifia_black_tu",
+    "source": "dtc",
+    "category": "permanent marker",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "permanent marker",
+    "color": "black and grey",
+    "size_cm": {
+      "height": 2.17,
+      "width": 2.29,
+      "length": 13.72
+    }
+  },
+  {
+    "obj_name": "dtc_marker_x00359kmed_blue_tu",
+    "source": "dtc",
+    "category": "permanent marker",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "blue permanent marker",
+    "color": "blue and grey",
+    "size_cm": {
+      "height": 1.16,
+      "width": 1.54,
+      "length": 14.4
+    }
+  },
+  {
+    "obj_name": "top_paw_dog_bow_bone_ceramic_13_fl_oz_total",
+    "source": "unified",
+    "category": "pet bowl",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "dog bowl",
+    "color": "pink and white",
+    "size_cm": {
+      "length": 21.2,
+      "width": 21.2,
+      "height": 6.9
+    }
+  },
+  {
+    "obj_name": "dtc_candle_b0d17xw9nr_darkbluetall1",
+    "source": "dtc",
+    "category": "pillar candle",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "sculptural pillar candle",
+    "color": "teal",
+    "size_cm": {
+      "height": 4.65,
+      "width": 4.81,
+      "length": 14.45
+    }
+  },
+  {
+    "obj_name": "cole_hardware_plant_saucer_glazed_9",
+    "source": "unified",
+    "category": "plant saucer",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "terracotta plant saucer",
+    "color": "brown",
+    "size_cm": {
+      "length": 26.0,
+      "width": 25.9,
+      "height": 3.9
+    }
+  },
+  {
+    "obj_name": "down_to_earth_orchid_pot_ceramic_lime",
+    "source": "unified",
+    "category": "planter pot",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "ceramic planter pot",
+    "color": "green",
+    "size_cm": {
+      "length": 14.3,
+      "width": 14.2,
+      "height": 12.9
+    }
+  },
+  {
+    "obj_name": "xyzibd_obj_005",
+    "source": "unified",
+    "category": "plastic cap",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "vented plastic cap",
+    "color": "grey",
+    "size_cm": {
+      "length": 8.5,
+      "width": 7.0,
+      "height": 3.5
+    }
+  },
+  {
+    "obj_name": "dtc_kitchen_cup_5913118545_green",
+    "source": "dtc",
+    "category": "plastic cup",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "small plastic cup",
+    "color": "green",
+    "size_cm": {
+      "height": 7.85,
+      "width": 7.88,
+      "length": 10.63
+    }
+  },
+  {
+    "obj_name": "xyzibd_obj_013",
+    "source": "unified",
+    "category": "plastic mounting bracket",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "plastic mounting bracket",
+    "color": "gray",
+    "size_cm": {
+      "length": 10.1,
+      "width": 5.4,
+      "height": 5.2
+    }
+  },
+  {
+    "obj_name": "dtc_spoon_b07ctljtqc_orange",
+    "source": "dtc",
+    "category": "plastic spoon",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "plastic spoon",
+    "color": "reddish-brown",
+    "size_cm": {
+      "height": 1.46,
+      "width": 3.05,
+      "length": 14.51
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b0b1vj8l65_skybluep",
+    "source": "dtc",
+    "category": "plastic toy block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toy block",
+    "color": "teal",
+    "size_cm": {
+      "height": 1.55,
+      "width": 3.03,
+      "length": 3.08
+    }
+  },
+  {
+    "obj_name": "dtc_cup_b0br43spkj_blue",
+    "source": "dtc",
+    "category": "plastic tumbler",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "blue tumbler",
+    "color": "blue",
+    "size_cm": {
+      "height": 7.83,
+      "width": 7.83,
+      "length": 10.57
+    }
+  },
+  {
+    "obj_name": "seagate_3tb_central_shared_storage",
+    "source": "unified",
+    "category": "portable speaker",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "portable speaker",
+    "color": "black",
+    "size_cm": {
+      "length": 21.7,
+      "width": 14.7,
+      "height": 4.6
+    }
+  },
+  {
+    "obj_name": "whey_protein_vanilla_12_packets",
+    "source": "unified",
+    "category": "protein powder box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "protein powder box",
+    "color": "yellow and blue",
+    "size_cm": {
+      "length": 15.7,
+      "width": 15.7,
+      "height": 10.5
+    }
+  },
+  {
+    "obj_name": "hb_obj_033",
+    "source": "unified",
+    "category": "rabbit figurine",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "bunny figurine",
+    "color": "yellow",
+    "size_cm": {
+      "length": 21.9,
+      "width": 19.9,
+      "height": 13.3
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b0b1vj8l65_skyblued",
+    "source": "dtc",
+    "category": "rectangular block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "teal rectangular block",
+    "color": "teal",
+    "size_cm": {
+      "height": 1.56,
+      "width": 3.06,
+      "length": 3.07
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b00fix22yq_redrectangularparallelepiped",
+    "source": "dtc",
+    "category": "rectangular brick",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "rectangular brick",
+    "color": "red",
+    "size_cm": {
+      "height": 1.55,
+      "width": 3.11,
+      "length": 6.06
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b0b1vj8l65_purpleplainrectangularprism",
+    "source": "dtc",
+    "category": "rectangular sponge",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "rectangular sponge",
+    "color": "purple",
+    "size_cm": {
+      "height": 1.68,
+      "width": 3.08,
+      "length": 9.0
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b0b1vj8l65_greent",
+    "source": "dtc",
+    "category": "rectangular toy block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "rectangular toy block",
+    "color": "yellow",
+    "size_cm": {
+      "height": 1.55,
+      "width": 3.03,
+      "length": 3.07
+    }
+  },
+  {
+    "obj_name": "android_figure_orange",
+    "source": "unified",
+    "category": "robot figurine",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "Android robot figurine",
+    "color": "orange",
+    "size_cm": {
+      "length": 8.7,
+      "width": 7.3,
+      "height": 6.7
+    }
+  },
+  {
+    "obj_name": "asics_gelblur33_20_gs_flash_yellowhot_punchsilver",
+    "source": "unified",
+    "category": "running shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "running shoe",
+    "color": "yellow and pink",
+    "size_cm": {
+      "length": 25.7,
+      "width": 12.1,
+      "height": 10.3
+    }
+  },
+  {
+    "obj_name": "climacool_aerate_2_w_wide",
+    "source": "unified",
+    "category": "running shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "running shoe",
+    "color": "black, grey, and pink",
+    "size_cm": {
+      "length": 27.6,
+      "width": 12.2,
+      "height": 11.9
+    }
+  },
+  {
+    "obj_name": "reebok_zigtech_shark_mayhem360",
+    "source": "unified",
+    "category": "running shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "running shoe",
+    "color": "light grey",
+    "size_cm": {
+      "length": 30.2,
+      "width": 12.8,
+      "height": 11.6
+    }
+  },
+  {
+    "obj_name": "ghost_6_color_blckwhtlavaslvrcitrus_size_80",
+    "source": "unified",
+    "category": "running shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "running shoe",
+    "color": "grey, red, and yellow",
+    "size_cm": {
+      "length": 30.0,
+      "width": 12.5,
+      "height": 11.7
+    }
+  },
+  {
+    "obj_name": "kotex_u_tween_pads_16_pads",
+    "source": "unified",
+    "category": "sanitary pad box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "sanitary pad box",
+    "color": "black, silver, and pink",
+    "size_cm": {
+      "length": 15.6,
+      "width": 10.3,
+      "height": 9.0
+    }
+  },
+  {
+    "obj_name": "dtc_caculator_b00000jbns_graygreensymbols",
+    "source": "dtc",
+    "category": "scientific calculator",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "scientific calculator",
+    "color": "black",
+    "size_cm": {
+      "height": 1.74,
+      "width": 7.97,
+      "length": 15.51
+    }
+  },
+  {
+    "obj_name": "dtc_kitchen_spoon_d146567c_green_1",
+    "source": "dtc",
+    "category": "serving spoon",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "serving spoon",
+    "color": "dark green",
+    "size_cm": {
+      "height": 3.93,
+      "width": 6.71,
+      "length": 32.84
+    }
+  },
+  {
+    "obj_name": "ecoforms_plant_saucer_s14natural",
+    "source": "unified",
+    "category": "shallow ceramic bowl",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "shallow brown bowl",
+    "color": "brown",
+    "size_cm": {
+      "length": 17.8,
+      "width": 17.8,
+      "height": 2.7
+    }
+  },
+  {
+    "obj_name": "crayola_washable_sidewalk_chalk_16_pack_wdzeciw7j6s",
+    "source": "unified",
+    "category": "sidewalk chalk box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "sidewalk chalk box",
+    "color": "green",
+    "size_cm": {
+      "length": 15.2,
+      "width": 9.4,
+      "height": 9.4
+    }
+  },
+  {
+    "obj_name": "dtc_spoon_b08gr687l9_yellow",
+    "source": "dtc",
+    "category": "silicone mixing spoon",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "silicone mixing spoon",
+    "color": "yellow",
+    "size_cm": {
+      "height": 1.5,
+      "width": 4.38,
+      "length": 20.3
+    }
+  },
+  {
+    "obj_name": "dtc_spoon_b0cp5j5p2f_gray",
+    "source": "dtc",
+    "category": "silicone serving spoon",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "silicone serving spoon",
+    "color": "grey",
+    "size_cm": {
+      "height": 1.78,
+      "width": 5.52,
+      "length": 27.08
+    }
+  },
+  {
+    "obj_name": "perricone_md_no_bronzer_bronzer",
+    "source": "unified",
+    "category": "skincare box",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "skincare product box",
+    "color": "cream and brown",
+    "size_cm": {
+      "length": 10.2,
+      "width": 5.3,
+      "height": 4.5
+    }
+  },
+  {
+    "obj_name": "perricone_md_chia_serum",
+    "source": "unified",
+    "category": "skincare box",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "skincare product box",
+    "color": "white",
+    "size_cm": {
+      "length": 12.1,
+      "width": 6.1,
+      "height": 4.4
+    }
+  },
+  {
+    "obj_name": "perricone_md_high_potency_evening_repair",
+    "source": "unified",
+    "category": "skincare box",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "skincare product box",
+    "color": "light grey",
+    "size_cm": {
+      "length": 12.4,
+      "width": 6.2,
+      "height": 4.7
+    }
+  },
+  {
+    "obj_name": "perricone_md_vitamin_c_ester_15",
+    "source": "unified",
+    "category": "skincare product box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "skincare product box",
+    "color": "white",
+    "size_cm": {
+      "length": 13.1,
+      "width": 8.1,
+      "height": 6.4
+    }
+  },
+  {
+    "obj_name": "perricone_md_the_cold_plasma_face_eyes_duo",
+    "source": "unified",
+    "category": "skincare product box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "skincare product box",
+    "color": "black",
+    "size_cm": {
+      "length": 13.2,
+      "width": 12.1,
+      "height": 7.0
+    }
+  },
+  {
+    "obj_name": "perricone_md_the_power_treatments",
+    "source": "unified",
+    "category": "skincare product box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "skincare product box",
+    "color": "white",
+    "size_cm": {
+      "length": 21.2,
+      "width": 16.1,
+      "height": 5.7
+    }
+  },
+  {
+    "obj_name": "mens_largo_slip_on_in_taupe_gooys417q4r",
+    "source": "unified",
+    "category": "slip-on shoe",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "slip-on shoe",
+    "color": "brown and grey",
+    "size_cm": {
+      "length": 30.7,
+      "width": 14.4,
+      "height": 9.0
+    }
+  },
+  {
+    "obj_name": "dtc_spoon_b08m3xnkyr_slotted",
+    "source": "dtc",
+    "category": "slotted spoon",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "slotted spoon",
+    "color": "red and grey",
+    "size_cm": {
+      "height": 4.78,
+      "width": 6.97,
+      "length": 33.77
+    }
+  },
+  {
+    "obj_name": "dtc_pottery_b098p6x5rp_turquoisejar",
+    "source": "dtc",
+    "category": "small ceramic jar",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "ceramic tea jar",
+    "color": "teal and brown",
+    "size_cm": {
+      "height": 7.59,
+      "width": 7.95,
+      "length": 8.01
+    }
+  },
+  {
+    "obj_name": "hope_obj_009",
+    "source": "unified",
+    "category": "snack box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "granola bar box",
+    "color": "yellow",
+    "size_cm": {
+      "length": 16.6,
+      "width": 12.4,
+      "height": 3.9
+    }
+  },
+  {
+    "obj_name": "nestle_skinny_cow_dreamy_clusters_candy_dark_chocolate_6_pack_1_oz_pouches",
+    "source": "unified",
+    "category": "snack box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "chocolate snack box",
+    "color": "white, purple, and black",
+    "size_cm": {
+      "length": 16.6,
+      "width": 13.9,
+      "height": 6.0
+    }
+  },
+  {
+    "obj_name": "little_debbie_cloud_cakes_10_ct",
+    "source": "unified",
+    "category": "snack cake box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "snack cake box",
+    "color": "blue and white",
+    "size_cm": {
+      "length": 24.4,
+      "width": 14.3,
+      "height": 8.3
+    }
+  },
+  {
+    "obj_name": "samoa",
+    "source": "unified",
+    "category": "sneaker",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "green sneaker",
+    "color": "green and blue",
+    "size_cm": {
+      "length": 29.9,
+      "width": 13.2,
+      "height": 11.8
+    }
+  },
+  {
+    "obj_name": "reebok_sh_prime_court_low",
+    "source": "unified",
+    "category": "sneaker",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "light blue sneaker",
+    "color": "light blue and white",
+    "size_cm": {
+      "length": 26.5,
+      "width": 11.5,
+      "height": 11.1
+    }
+  },
+  {
+    "obj_name": "predito_lz_trx_fg_w",
+    "source": "unified",
+    "category": "soccer cleat",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "soccer cleat",
+    "color": "white, blue, and pink",
+    "size_cm": {
+      "length": 26.3,
+      "width": 11.7,
+      "height": 9.6
+    }
+  },
+  {
+    "obj_name": "sony_acid_music_studio",
+    "source": "unified",
+    "category": "software box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "software box",
+    "color": "white and green",
+    "size_cm": {
+      "length": 19.7,
+      "width": 14.2,
+      "height": 3.7
+    }
+  },
+  {
+    "obj_name": "nestle_pure_life_exotics_sparkling_water_strawberry_dragon_fruit_8_count_12_fl_oz_can_ax0ygjh3bxi",
+    "source": "unified",
+    "category": "sparkling water box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "sparkling water box",
+    "color": "pink",
+    "size_cm": {
+      "length": 27.4,
+      "width": 14.0,
+      "height": 13.0
+    }
+  },
+  {
+    "obj_name": "ecoforms_plant_saucer_s14mocha",
+    "source": "unified",
+    "category": "speckled ceramic bowl",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "speckled brown bowl",
+    "color": "brown",
+    "size_cm": {
+      "length": 16.6,
+      "width": 16.6,
+      "height": 2.8
+    }
+  },
+  {
+    "obj_name": "spiderman_titan_hero_12inch_action_figure_5hnn4mtkfsp",
+    "source": "unified",
+    "category": "spider-man action figure",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "Spider-Man action figure",
+    "color": "red and blue",
+    "size_cm": {
+      "length": 31.4,
+      "width": 22.8,
+      "height": 10.4
+    }
+  },
+  {
+    "obj_name": "pony_c_clamp_1440",
+    "source": "unified",
+    "category": "spring clamp",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "metal C-clamp",
+    "color": "gray",
+    "size_cm": {
+      "length": 20.6,
+      "width": 18.9,
+      "height": 4.9
+    }
+  },
+  {
+    "obj_name": "threshold_salad_plate_square_rim_porcelain",
+    "source": "unified",
+    "category": "square ceramic plate",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "square ceramic plate",
+    "color": "grey",
+    "size_cm": {
+      "length": 21.3,
+      "width": 21.3,
+      "height": 3.5
+    }
+  },
+  {
+    "obj_name": "ecoforms_plant_container_qp_harvest",
+    "source": "unified",
+    "category": "square flower pot",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "square flower pot",
+    "color": "yellow",
+    "size_cm": {
+      "length": 9.1,
+      "width": 8.9,
+      "height": 8.8
+    }
+  },
+  {
+    "obj_name": "ecoforms_quadra_saucer_sq1_avocado",
+    "source": "unified",
+    "category": "square serving tray",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "square plastic tray",
+    "color": "green",
+    "size_cm": {
+      "length": 8.7,
+      "width": 8.7,
+      "height": 2.1
+    }
+  },
+  {
+    "obj_name": "dtc_dinohelycancpurplewithbluedots",
+    "source": "dtc",
+    "category": "stegosaurus toy",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toy stegosaurus",
+    "color": "purple and green",
+    "size_cm": {
+      "height": 3.73,
+      "width": 5.91,
+      "length": 12.31
+    }
+  },
+  {
+    "obj_name": "tag_dishtowel_dobby_stripe_blue_18_x_26",
+    "source": "unified",
+    "category": "striped towel",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "folded striped towel",
+    "color": "blue and white",
+    "size_cm": {
+      "length": 23.8,
+      "width": 17.2,
+      "height": 4.1
+    }
+  },
+  {
+    "obj_name": "dtc_candle_b07hhxz2g3_greencabbage1",
+    "source": "dtc",
+    "category": "succulent candle",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "succulent candle",
+    "color": "green",
+    "size_cm": {
+      "height": 3.74,
+      "width": 3.89,
+      "length": 4.18
+    }
+  },
+  {
+    "obj_name": "borage_gla240gamma_tocopherol",
+    "source": "unified",
+    "category": "supplement bottle",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "supplement bottle",
+    "color": "white and orange",
+    "size_cm": {
+      "length": 11.2,
+      "width": 8.6,
+      "height": 8.5
+    }
+  },
+  {
+    "obj_name": "jarrodophilusfos_value_size",
+    "source": "unified",
+    "category": "supplement bottle",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "supplement bottle",
+    "color": "white, yellow, and purple",
+    "size_cm": {
+      "length": 12.9,
+      "width": 9.2,
+      "height": 9.2
+    }
+  },
+  {
+    "obj_name": "mk7",
+    "source": "unified",
+    "category": "supplement bottle",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "supplement bottle",
+    "color": "white and yellow",
+    "size_cm": {
+      "length": 8.4,
+      "width": 5.6,
+      "height": 5.5
+    }
+  },
+  {
+    "obj_name": "qhpomegranate",
+    "source": "unified",
+    "category": "supplement bottle",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "supplement bottle",
+    "color": "white and red",
+    "size_cm": {
+      "length": 9.8,
+      "width": 5.5,
+      "height": 5.4
+    }
+  },
+  {
+    "obj_name": "lutein",
+    "source": "unified",
+    "category": "supplement bottle",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "supplement bottle",
+    "color": "white, yellow, and green",
+    "size_cm": {
+      "length": 9.7,
+      "width": 6.7,
+      "height": 6.6
+    }
+  },
+  {
+    "obj_name": "hyaluronic_acid",
+    "source": "unified",
+    "category": "supplement bottle",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "supplement bottle",
+    "color": "white and yellow",
+    "size_cm": {
+      "length": 9.9,
+      "width": 5.5,
+      "height": 5.5
+    }
+  },
+  {
+    "obj_name": "perricone_md_omega_3_supplements",
+    "source": "unified",
+    "category": "supplement box",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "supplement box",
+    "color": "white",
+    "size_cm": {
+      "length": 12.8,
+      "width": 7.7,
+      "height": 7.5
+    }
+  },
+  {
+    "obj_name": "same_200_kx7zmow47co",
+    "source": "unified",
+    "category": "supplement box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "supplement box",
+    "color": "white and orange",
+    "size_cm": {
+      "length": 13.2,
+      "width": 8.3,
+      "height": 4.9
+    }
+  },
+  {
+    "obj_name": "lmo_obj_012",
+    "source": "unified",
+    "category": "tape dispenser",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "tape dispenser",
+    "color": "dark blue",
+    "size_cm": {
+      "length": 11.3,
+      "width": 10.8,
+      "height": 10.0
+    }
+  },
+  {
+    "obj_name": "dtc_candle_b00gcild64_purple",
+    "source": "dtc",
+    "category": "taper candle",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "taper candle",
+    "color": "purple",
+    "size_cm": {
+      "height": 1.14,
+      "width": 1.52,
+      "length": 11.82
+    }
+  },
+  {
+    "obj_name": "hb_obj_029",
+    "source": "unified",
+    "category": "tea box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "tea box",
+    "color": "yellow",
+    "size_cm": {
+      "length": 17.1,
+      "width": 10.0,
+      "height": 7.0
+    }
+  },
+  {
+    "obj_name": "napa_valley_navajo_sandal",
+    "source": "unified",
+    "category": "thong sandal",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "thong sandal",
+    "color": "tan",
+    "size_cm": {
+      "length": 26.3,
+      "width": 17.6,
+      "height": 8.5
+    }
+  },
+  {
+    "obj_name": "air_hogs_wind_flyers_set_airplane_red",
+    "source": "unified",
+    "category": "toy airplane",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "toy airplane",
+    "color": "red",
+    "size_cm": {
+      "length": 33.6,
+      "width": 33.3,
+      "height": 5.8
+    }
+  },
+  {
+    "obj_name": "granimals_20_wooden_abc_blocks_wagon_85vdsftgsli",
+    "source": "unified",
+    "category": "toy alphabet block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "wooden alphabet block",
+    "color": "tan",
+    "size_cm": {
+      "length": 3.1,
+      "width": 3.1,
+      "height": 3.1
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b00fix22yq_redcube",
+    "source": "dtc",
+    "category": "toy block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toy block",
+    "color": "red",
+    "size_cm": {
+      "height": 3.02,
+      "width": 3.06,
+      "length": 3.07
+    }
+  },
+  {
+    "obj_name": "mini_roller",
+    "source": "unified",
+    "category": "toy block",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "toy steamroller",
+    "color": "yellow and tan",
+    "size_cm": {
+      "length": 17.5,
+      "width": 16.7,
+      "height": 9.2
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b0b1vj8l65_brown5",
+    "source": "dtc",
+    "category": "toy block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toy block",
+    "color": "brown",
+    "size_cm": {
+      "height": 1.64,
+      "width": 2.99,
+      "length": 3.07
+    }
+  },
+  {
+    "obj_name": "hb_obj_003",
+    "source": "unified",
+    "category": "toy car",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "toy car",
+    "color": "blue and white",
+    "size_cm": {
+      "length": 16.8,
+      "width": 11.7,
+      "height": 10.9
+    }
+  },
+  {
+    "obj_name": "dtc_figurine_b07j67vb5v_yellowcrab",
+    "source": "dtc",
+    "category": "toy crab",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toy crab",
+    "color": "yellow and orange",
+    "size_cm": {
+      "height": 1.31,
+      "width": 4.24,
+      "length": 5.51
+    }
+  },
+  {
+    "obj_name": "schleich_allosaurus",
+    "source": "unified",
+    "category": "toy dinosaur",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "toy dinosaur",
+    "color": "brown",
+    "size_cm": {
+      "length": 24.5,
+      "width": 16.0,
+      "height": 12.2
+    }
+  },
+  {
+    "obj_name": "dtc_dino_b015czp872_smallorangeraptor",
+    "source": "dtc",
+    "category": "toy dinosaur",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toy dinosaur",
+    "color": "orange and tan",
+    "size_cm": {
+      "height": 1.81,
+      "width": 4.48,
+      "length": 5.06
+    }
+  },
+  {
+    "obj_name": "dtc_dino_b07shq9y7b_blue",
+    "source": "dtc",
+    "category": "toy dinosaur",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "dinosaur figurine",
+    "color": "green",
+    "size_cm": {
+      "height": 4.33,
+      "width": 5.92,
+      "length": 13.36
+    }
+  },
+  {
+    "obj_name": "dtc_dino_b015czp872_smallorangetrex",
+    "source": "dtc",
+    "category": "toy dinosaur",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toy dinosaur",
+    "color": "orange and tan",
+    "size_cm": {
+      "height": 1.9,
+      "width": 4.37,
+      "length": 6.17
+    }
+  },
+  {
+    "obj_name": "mini_fire_engine",
+    "source": "unified",
+    "category": "toy fire truck",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "toy fire truck",
+    "color": "red and beige",
+    "size_cm": {
+      "length": 20.3,
+      "width": 15.6,
+      "height": 12.1
+    }
+  },
+  {
+    "obj_name": "paint_maker",
+    "source": "unified",
+    "category": "toy food box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "toy craft box",
+    "color": "yellow",
+    "size_cm": {
+      "length": 24.2,
+      "width": 23.2,
+      "height": 14.8
+    }
+  },
+  {
+    "obj_name": "hope_obj_021",
+    "source": "unified",
+    "category": "toy food can",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "toy food can",
+    "color": "blue and yellow",
+    "size_cm": {
+      "length": 9.1,
+      "width": 9.1,
+      "height": 5.8
+    }
+  },
+  {
+    "obj_name": "hope_obj_020",
+    "source": "unified",
+    "category": "toy food can",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "toy food can",
+    "color": "green and orange",
+    "size_cm": {
+      "length": 9.4,
+      "width": 9.3,
+      "height": 5.9
+    }
+  },
+  {
+    "obj_name": "squirt_strain_fruit_basket",
+    "source": "unified",
+    "category": "toy fruit basket",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "toy fruit basket",
+    "color": "green and yellow",
+    "size_cm": {
+      "length": 14.4,
+      "width": 11.7,
+      "height": 11.0
+    }
+  },
+  {
+    "obj_name": "3d_dollhouse_sink",
+    "source": "unified",
+    "category": "toy kitchen set",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "toy kitchen unit",
+    "color": "beige and green",
+    "size_cm": {
+      "length": 13.2,
+      "width": 8.6,
+      "height": 7.4
+    }
+  },
+  {
+    "obj_name": "school_bus",
+    "source": "unified",
+    "category": "toy school bus",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toy school bus",
+    "color": "yellow",
+    "size_cm": {
+      "length": 9.8,
+      "width": 3.8,
+      "height": 3.2
+    }
+  },
+  {
+    "obj_name": "vtech_roll_learn_turtle",
+    "source": "unified",
+    "category": "toy turtle",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "toy turtle",
+    "color": "green and yellow",
+    "size_cm": {
+      "length": 23.4,
+      "width": 17.1,
+      "height": 11.8
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b0b1vj8l65_darkblueplaintrapezoidalprism",
+    "source": "dtc",
+    "category": "trapezoidal block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "black trapezoidal block",
+    "color": "black",
+    "size_cm": {
+      "height": 1.52,
+      "width": 2.97,
+      "length": 5.92
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b0b1vj8l65_redtriangle",
+    "source": "dtc",
+    "category": "triangular toy block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "triangular toy block",
+    "color": "red",
+    "size_cm": {
+      "height": 2.08,
+      "width": 2.97,
+      "length": 4.2
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b0blb753m4_plainlargetriangularprism",
+    "source": "dtc",
+    "category": "triangular wooden block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "triangular wooden block",
+    "color": "light brown",
+    "size_cm": {
+      "height": 2.93,
+      "width": 3.03,
+      "length": 5.89
+    }
+  },
+  {
+    "obj_name": "dtc_dinohelycancyellowwithbluestripe",
+    "source": "dtc",
+    "category": "triceratops toy",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toy triceratops",
+    "color": "yellow and green",
+    "size_cm": {
+      "height": 4.41,
+      "width": 6.99,
+      "length": 12.0
+    }
+  },
+  {
+    "obj_name": "nickelodeon_teenage_mutant_ninja_turtles_leonardo",
+    "source": "unified",
+    "category": "turtle action figure",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "turtle action figure",
+    "color": "green, brown, and blue",
+    "size_cm": {
+      "length": 12.2,
+      "width": 12.2,
+      "height": 8.7
+    }
+  },
+  {
+    "obj_name": "reebok_ultimatic_2v",
+    "source": "unified",
+    "category": "velcro sneaker",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "child's velcro sneaker",
+    "color": "grey and pink",
+    "size_cm": {
+      "length": 22.6,
+      "width": 9.9,
+      "height": 9.8
+    }
+  },
+  {
+    "obj_name": "pok\u00e9mon_omega_ruby_alpha_sapphire_dual_pack_nintendo_3ds",
+    "source": "unified",
+    "category": "video game box",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "video game box",
+    "color": "white",
+    "size_cm": {
+      "length": 14.4,
+      "width": 13.2,
+      "height": 3.6
+    }
+  },
+  {
+    "obj_name": "pokmon_x_nintendo_3ds_game",
+    "source": "unified",
+    "category": "video game case",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "video game case",
+    "color": "white",
+    "size_cm": {
+      "length": 13.7,
+      "width": 12.5,
+      "height": 1.5
+    }
+  },
+  {
+    "obj_name": "final_fantasy_xiv_a_realm_reborn_60day_subscription",
+    "source": "unified",
+    "category": "video game case",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "video game case",
+    "color": "black",
+    "size_cm": {
+      "length": 19.1,
+      "width": 13.7,
+      "height": 1.8
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b0b1vj8l65_brownpinklinesquadrant",
+    "source": "dtc",
+    "category": "wedge block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "wedge-shaped block",
+    "color": "brown",
+    "size_cm": {
+      "height": 2.85,
+      "width": 3.07,
+      "length": 4.03
+    }
+  },
+  {
+    "obj_name": "razer_abyssus_ambidextrous_gaming_mouse",
+    "source": "unified",
+    "category": "wired computer mouse",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "wired computer mouse",
+    "color": "black",
+    "size_cm": {
+      "length": 14.6,
+      "width": 10.3,
+      "height": 4.0
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b0c36cp26s_lightsquare",
+    "source": "dtc",
+    "category": "wooden block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "wooden block",
+    "color": "brown",
+    "size_cm": {
+      "height": 2.33,
+      "width": 4.54,
+      "length": 4.6
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b00fix22yq_lightbrownrectangularparallelepiped",
+    "source": "dtc",
+    "category": "wooden block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "wooden block",
+    "color": "light brown",
+    "size_cm": {
+      "height": 1.62,
+      "width": 3.07,
+      "length": 3.08
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b0c36cp26s_rectangle",
+    "source": "dtc",
+    "category": "wooden block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "wooden block",
+    "color": "light brown",
+    "size_cm": {
+      "height": 2.27,
+      "width": 4.59,
+      "length": 9.01
+    }
+  },
+  {
+    "obj_name": "nuts_bolts",
+    "source": "unified",
+    "category": "wooden construction toy",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "wooden construction toy",
+    "color": "multicolored",
+    "size_cm": {
+      "length": 19.8,
+      "width": 19.6,
+      "height": 12.5
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b0blb753m4_plainmediumcylinder",
+    "source": "dtc",
+    "category": "wooden cylinder",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "wooden cylinder",
+    "color": "light brown",
+    "size_cm": {
+      "height": 2.89,
+      "width": 2.99,
+      "length": 6.02
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b0b1vj8l65_whitecloudprism",
+    "source": "dtc",
+    "category": "wooden doorstop",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "wooden doorstop",
+    "color": "light brown",
+    "size_cm": {
+      "height": 1.56,
+      "width": 2.95,
+      "length": 5.91
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b0c36cp26s_lighthalfcylinder",
+    "source": "dtc",
+    "category": "wooden half-cylinder block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "half-cylinder wooden block",
+    "color": "brown",
+    "size_cm": {
+      "height": 2.24,
+      "width": 4.42,
+      "length": 4.52
+    }
+  },
+  {
+    "obj_name": "twisted_puzzle",
+    "source": "unified",
+    "category": "wooden shape puzzle",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "square geometric puzzle",
+    "color": "multicolor and beige",
+    "size_cm": {
+      "length": 18.9,
+      "width": 17.5,
+      "height": 3.6
+    }
+  },
+  {
+    "obj_name": "dtc_kitchen_spoon_b008h2jlp8_mediumwooden",
+    "source": "dtc",
+    "category": "wooden spoon",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "wooden spoon",
+    "color": "brown",
+    "size_cm": {
+      "height": 2.48,
+      "width": 5.4,
+      "length": 27.67
+    }
+  },
+  {
+    "obj_name": "baby_car",
+    "source": "unified",
+    "category": "wooden stacking toy",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "wooden rainbow toy",
+    "color": "multicolor and white",
+    "size_cm": {
+      "length": 9.7,
+      "width": 8.6,
+      "height": 7.3
+    }
+  },
+  {
+    "obj_name": "sandwich_meal",
+    "source": "unified",
+    "category": "wooden toy",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "wooden toy sandwich",
+    "color": "tan and yellow",
+    "size_cm": {
+      "length": 16.3,
+      "width": 15.4,
+      "height": 5.8
+    }
+  },
+  {
+    "obj_name": "build_a_robot",
+    "source": "unified",
+    "category": "wooden toy",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "wooden toy robot",
+    "color": "light brown and multi-colored",
+    "size_cm": {
+      "length": 29.4,
+      "width": 13.5,
+      "height": 13.0
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b088r3mv5l_goldenyellowandlettert",
+    "source": "dtc",
+    "category": "wooden toy block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "wooden toy block",
+    "color": "light brown",
+    "size_cm": {
+      "height": 4.2,
+      "width": 4.23,
+      "length": 4.23
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b088r3mv5l_lightpinkandletterr",
+    "source": "dtc",
+    "category": "wooden toy block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "wooden toy block",
+    "color": "tan",
+    "size_cm": {
+      "height": 4.23,
+      "width": 4.23,
+      "length": 4.25
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b088r3mv5l_lightpinkandletterf_1",
+    "source": "dtc",
+    "category": "wooden toy block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "wooden toy block",
+    "color": "tan and pink",
+    "size_cm": {
+      "height": 4.17,
+      "width": 4.2,
+      "length": 4.21
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b088r3mv5l_greenandletterj",
+    "source": "dtc",
+    "category": "wooden toy block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "wooden toy block",
+    "color": "natural wood and green",
+    "size_cm": {
+      "height": 4.21,
+      "width": 4.21,
+      "length": 4.21
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b088r3mv5l_oceanblueandletterq",
+    "source": "dtc",
+    "category": "wooden toy block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "wooden toy block",
+    "color": "natural wood",
+    "size_cm": {
+      "height": 4.2,
+      "width": 4.2,
+      "length": 4.22
+    }
+  },
+  {
+    "obj_name": "dtc_woodblocks_b0c36cp26s_largetriangle",
+    "source": "dtc",
+    "category": "wooden wedge block",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "wooden wedge block",
+    "color": "light brown",
+    "size_cm": {
+      "height": 4.54,
+      "width": 6.14,
+      "length": 6.29
+    }
+  },
+  {
+    "obj_name": "dtc_mallard_b071l2jprq_darkbrown",
+    "source": "dtc",
+    "category": "woodpecker figurine",
+    "role": "distractor",
+    "role_source": "human",
+    "graspable": true,
+    "name": "woodpecker figurine",
+    "color": "red and black",
+    "size_cm": {
+      "height": 1.68,
+      "width": 2.74,
+      "length": 6.47
+    }
+  },
+  {
+    "obj_name": "threshold_basket_natural_finish_fabric_liner_small",
+    "source": "unified",
+    "category": "woven storage basket",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "woven storage basket",
+    "color": "tan and gray",
+    "size_cm": {
+      "length": 24.1,
+      "width": 16.4,
+      "height": 15.0
+    }
+  },
+  {
+    "obj_name": "big_dot_pink_pencil_case",
+    "source": "unified",
+    "category": "zippered pencil case",
+    "role": "distractor",
+    "role_source": "auto",
+    "graspable": false,
+    "name": "zippered pencil case",
+    "color": "pink and brown",
+    "size_cm": {
+      "length": 21.7,
+      "width": 13.6,
+      "height": 13.4
+    }
+  },
+  {
+    "obj_name": "dtc_spoon_b08ggb6wgv_orange",
+    "source": "dtc",
+    "category": "baby spoon",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "baby spoon",
+    "color": "orange and grey",
+    "size_cm": {
+      "height": 1.78,
+      "width": 2.4,
+      "length": 15.58
+    }
+  },
+  {
+    "obj_name": "dtc_figurine_b0b2w3rdl8_toucan_1",
+    "source": "dtc",
+    "category": "bird figurine",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toucan figurine",
+    "color": "black and yellow",
+    "size_cm": {
+      "height": 1.43,
+      "width": 2.58,
+      "length": 5.45
+    }
+  },
+  {
+    "obj_name": "dtc_can_toy_b07fvrwmck_spicyblackbeans_1",
+    "source": "dtc",
+    "category": "canned beans",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "bean can",
+    "color": "yellow and grey",
+    "size_cm": {
+      "height": 5.86,
+      "width": 6.41,
+      "length": 6.41
+    }
+  },
+  {
+    "obj_name": "dtc_can_toy_b089ng94jv_wholekernelcorn_1",
+    "source": "dtc",
+    "category": "canned corn",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "canned corn",
+    "color": "green and silver",
+    "size_cm": {
+      "height": 7.54,
+      "width": 7.58,
+      "length": 11.01
+    }
+  },
+  {
+    "obj_name": "dtc_can_toy_b01i0e4pxa_cherries_1",
+    "source": "dtc",
+    "category": "canned food",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "canned food",
+    "color": "blue and green",
+    "size_cm": {
+      "height": 6.79,
+      "width": 6.81,
+      "length": 9.89
+    }
+  },
+  {
+    "obj_name": "dtc_can_toy_b07fvrwmck_mandarinoranges",
+    "source": "dtc",
+    "category": "canned food",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "fruit tin can",
+    "color": "teal and orange",
+    "size_cm": {
+      "height": 5.84,
+      "width": 6.37,
+      "length": 6.44
+    }
+  },
+  {
+    "obj_name": "dtc_can_toy_b09312sfgb_peaches",
+    "source": "dtc",
+    "category": "canned peaches",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "canned peaches",
+    "color": "tan and orange",
+    "size_cm": {
+      "height": 4.05,
+      "width": 5.08,
+      "length": 5.1
+    }
+  },
+  {
+    "obj_name": "dtc_can_toy_b09b8ptlbd_pineappleslices",
+    "source": "dtc",
+    "category": "canned pineapple",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "canned pineapple slices",
+    "color": "orange and green",
+    "size_cm": {
+      "height": 3.87,
+      "width": 6.53,
+      "length": 6.97
+    }
+  },
+  {
+    "obj_name": "dtc_can_toy_b01i0e4pxa_tomatoes",
+    "source": "dtc",
+    "category": "canned tomatoes",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "tomato can",
+    "color": "blue and red",
+    "size_cm": {
+      "height": 6.81,
+      "width": 6.84,
+      "length": 9.89
+    }
+  },
+  {
+    "obj_name": "dtc_can_toy_b09wd35jtm_fish_1",
+    "source": "dtc",
+    "category": "canned tuna",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "canned fish",
+    "color": "blue and black",
+    "size_cm": {
+      "height": 2.65,
+      "width": 6.17,
+      "length": 6.2
+    }
+  },
+  {
+    "obj_name": "dtc_marker_b08x27cjbt_pink_1_tu",
+    "source": "dtc",
+    "category": "capsule container",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "capsule shaped container",
+    "color": "pink and white",
+    "size_cm": {
+      "height": 1.72,
+      "width": 1.86,
+      "length": 5.22
+    }
+  },
+  {
+    "obj_name": "dtc_figurine_b0cjf6mmg5_graycat",
+    "source": "dtc",
+    "category": "cat figurine",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "cat figurine",
+    "color": "grey",
+    "size_cm": {
+      "height": 2.09,
+      "width": 4.27,
+      "length": 5.54
+    }
+  },
+  {
+    "obj_name": "dtc_vase_b0bnv83hsc_monetblue",
+    "source": "dtc",
+    "category": "ceramic bottle",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "small ceramic bottle",
+    "color": "dark gray",
+    "size_cm": {
+      "height": 7.46,
+      "width": 7.53,
+      "length": 19.68
+    }
+  },
+  {
+    "obj_name": "dtc_vase_b0bqztxhr8_brown",
+    "source": "dtc",
+    "category": "ceramic vase",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "small ceramic vase",
+    "color": "brown",
+    "size_cm": {
+      "height": 7.05,
+      "width": 7.1,
+      "length": 15.41
+    }
+  },
+  {
+    "obj_name": "dtc_vase_b002mh255w_white",
+    "source": "dtc",
+    "category": "ceramic vase",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "small ceramic vase",
+    "color": "off-white",
+    "size_cm": {
+      "height": 5.09,
+      "width": 5.21,
+      "length": 8.99
+    }
+  },
+  {
+    "obj_name": "dtc_vase_b0brwh91dy_pink",
+    "source": "dtc",
+    "category": "ceramic vase",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "pink ceramic vase",
+    "color": "pink",
+    "size_cm": {
+      "height": 6.45,
+      "width": 6.52,
+      "length": 11.94
+    }
+  },
+  {
+    "obj_name": "dtc_marker_b07q4k1hrj_green_1_tu",
+    "source": "dtc",
+    "category": "chalk marker",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "green chalk marker",
+    "color": "green and black",
+    "size_cm": {
+      "height": 1.87,
+      "width": 2.31,
+      "length": 13.88
+    }
+  },
+  {
+    "obj_name": "dtc_mallard_b07g92r8v9_yellowleft",
+    "source": "dtc",
+    "category": "chick figurine",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "yellow chick figurine",
+    "color": "yellow",
+    "size_cm": {
+      "height": 5.73,
+      "width": 6.76,
+      "length": 10.7
+    }
+  },
+  {
+    "obj_name": "dtc_mouse_b07h8tjmx7_mintgreen",
+    "source": "dtc",
+    "category": "computer mouse",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "computer mouse",
+    "color": "teal",
+    "size_cm": {
+      "height": 3.85,
+      "width": 5.99,
+      "length": 9.94
+    }
+  },
+  {
+    "obj_name": "dtc_mouse_b09yhxxl13_pink",
+    "source": "dtc",
+    "category": "computer mouse",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "computer mouse",
+    "color": "pink",
+    "size_cm": {
+      "height": 3.88,
+      "width": 6.73,
+      "length": 10.91
+    }
+  },
+  {
+    "obj_name": "dtc_speaker_b09prkv6nd_blacks",
+    "source": "dtc",
+    "category": "cube speaker",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "portable cube speaker",
+    "color": "black",
+    "size_cm": {
+      "height": 6.5,
+      "width": 6.51,
+      "length": 7.87
+    }
+  },
+  {
+    "obj_name": "dtc_candle_b0cn6g1x6p_purplesmall",
+    "source": "dtc",
+    "category": "decorative candle",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "ribbed candle",
+    "color": "grey",
+    "size_cm": {
+      "height": 6.23,
+      "width": 6.43,
+      "length": 8.9
+    }
+  },
+  {
+    "obj_name": "dtc_figurine_b07b8pvqsd_spotteddane",
+    "source": "dtc",
+    "category": "dog figurine",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "spotted dog figurine",
+    "color": "white and black",
+    "size_cm": {
+      "height": 1.72,
+      "width": 3.34,
+      "length": 4.93
+    }
+  },
+  {
+    "obj_name": "dtc_dumbbell_b087jhxfzr_pink",
+    "source": "dtc",
+    "category": "dumbbell",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "pink dumbbell",
+    "color": "pink",
+    "size_cm": {
+      "height": 6.68,
+      "width": 7.23,
+      "length": 19.33
+    }
+  },
+  {
+    "obj_name": "dtc_dumbbell_b0bwj2b56y_green",
+    "source": "dtc",
+    "category": "dumbbell",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "green dumbbell",
+    "color": "green",
+    "size_cm": {
+      "height": 5.36,
+      "width": 5.41,
+      "length": 17.81
+    }
+  },
+  {
+    "obj_name": "dtc_shaver_b0b6b9bw1q_white",
+    "source": "dtc",
+    "category": "electric shaver",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "electric hair trimmer",
+    "color": "grey and rose gold",
+    "size_cm": {
+      "height": 2.96,
+      "width": 3.3,
+      "length": 14.95
+    }
+  },
+  {
+    "obj_name": "dtc_mouse_b0clvfdb6l_whiteblack",
+    "source": "dtc",
+    "category": "ergonomic computer mouse",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "ergonomic computer mouse",
+    "color": "black and gray",
+    "size_cm": {
+      "height": 6.09,
+      "width": 7.51,
+      "length": 10.51
+    }
+  },
+  {
+    "obj_name": "dtc_fakefruit_9422e_keittmango",
+    "source": "dtc",
+    "category": "fresh mango",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "green mango",
+    "color": "green",
+    "size_cm": {
+      "height": 6.02,
+      "width": 7.07,
+      "length": 12.71
+    }
+  },
+  {
+    "obj_name": "dtc_mallard_b0by1d2xb6_white",
+    "source": "dtc",
+    "category": "goose figurine",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "goose figurine",
+    "color": "white and yellow",
+    "size_cm": {
+      "height": 1.36,
+      "width": 2.68,
+      "length": 2.92
+    }
+  },
+  {
+    "obj_name": "dtc_fakefruit_b076h96cs1_greenapple",
+    "source": "dtc",
+    "category": "green apple",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "green apple",
+    "color": "green",
+    "size_cm": {
+      "height": 7.26,
+      "width": 7.98,
+      "length": 8.16
+    }
+  },
+  {
+    "obj_name": "dtc_fakefruit_b0815w7rkc_goldenpear",
+    "source": "dtc",
+    "category": "green pear",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "yellow pear",
+    "color": "yellow",
+    "size_cm": {
+      "height": 7.42,
+      "width": 7.62,
+      "length": 10.87
+    }
+  },
+  {
+    "obj_name": "dtc_dumbbell_b00um41gyi_black",
+    "source": "dtc",
+    "category": "hex dumbbell",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "hex dumbbell",
+    "color": "black",
+    "size_cm": {
+      "height": 4.7,
+      "width": 5.03,
+      "length": 15.33
+    }
+  },
+  {
+    "obj_name": "dtc_figurine_b01n7b2ghg_brownhorse1",
+    "source": "dtc",
+    "category": "horse figurine",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "horse figurine",
+    "color": "dark brown",
+    "size_cm": {
+      "height": 1.67,
+      "width": 4.82,
+      "length": 5.7
+    }
+  },
+  {
+    "obj_name": "dell_series_9_color_ink_cartridge_mk993_high_yield",
+    "source": "unified",
+    "category": "ink cartridge box",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "ink cartridge box",
+    "color": "green and white",
+    "size_cm": {
+      "length": 13.4,
+      "width": 7.0,
+      "height": 4.1
+    }
+  },
+  {
+    "obj_name": "dtc_carton_toy_0e9d95af_orangejuice_1",
+    "source": "dtc",
+    "category": "juice carton",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "orange juice carton",
+    "color": "yellow and orange",
+    "size_cm": {
+      "height": 7.35,
+      "width": 7.45,
+      "length": 19.18
+    }
+  },
+  {
+    "obj_name": "dtc_bottle_toy_squeezefancytomatoketchup_c1f9906c",
+    "source": "dtc",
+    "category": "ketchup bottle",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "ketchup bottle",
+    "color": "red and white",
+    "size_cm": {
+      "height": 4.35,
+      "width": 6.43,
+      "length": 14.52
+    }
+  },
+  {
+    "obj_name": "dtc_shampoo_b00242reme_mud",
+    "source": "dtc",
+    "category": "lotion bottle",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "lotion bottle",
+    "color": "white and brown",
+    "size_cm": {
+      "height": 3.38,
+      "width": 7.15,
+      "length": 19.66
+    }
+  },
+  {
+    "obj_name": "phillips_milk_of_magnesia_saline_laxative_liquid_original",
+    "source": "unified",
+    "category": "medicine bottle",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "medicine bottle",
+    "color": "purple and white",
+    "size_cm": {
+      "length": 17.5,
+      "width": 7.5,
+      "height": 5.8
+    }
+  },
+  {
+    "obj_name": "dtc_bottle_toy_9c781b5e_squeezespicymustard",
+    "source": "dtc",
+    "category": "mustard bottle",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "mustard bottle",
+    "color": "yellow",
+    "size_cm": {
+      "height": 4.81,
+      "width": 6.57,
+      "length": 14.91
+    }
+  },
+  {
+    "obj_name": "dtc_fakefruit_b0113y4pdo_nectarine",
+    "source": "dtc",
+    "category": "nectarine",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "fresh nectarine",
+    "color": "red and yellow",
+    "size_cm": {
+      "height": 7.31,
+      "width": 7.71,
+      "length": 7.88
+    }
+  },
+  {
+    "obj_name": "dtc_mouse_b079jlj5dh_yellowtesla",
+    "source": "dtc",
+    "category": "novelty computer mouse",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "car computer mouse",
+    "color": "yellow and black",
+    "size_cm": {
+      "height": 3.57,
+      "width": 5.64,
+      "length": 10.26
+    }
+  },
+  {
+    "obj_name": "dtc_fakefruit_b076h96cs1_orange_1",
+    "source": "dtc",
+    "category": "orange fruit",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "orange fruit",
+    "color": "orange",
+    "size_cm": {
+      "height": 7.75,
+      "width": 7.81,
+      "length": 8.01
+    }
+  },
+  {
+    "obj_name": "dtc_figurine_b0b2w3rdl8_blueparrot",
+    "source": "dtc",
+    "category": "parrot figurine",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "parrot figurine",
+    "color": "blue and yellow",
+    "size_cm": {
+      "height": 2.39,
+      "width": 5.85,
+      "length": 6.26
+    }
+  },
+  {
+    "obj_name": "dtc_shampoo_b01n00zt57_magentabutter",
+    "source": "dtc",
+    "category": "plastic bottle",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "magenta plastic bottle",
+    "color": "magenta",
+    "size_cm": {
+      "height": 5.51,
+      "width": 6.29,
+      "length": 19.0
+    }
+  },
+  {
+    "obj_name": "dtc_kitchen_cup_5354996301_purple",
+    "source": "dtc",
+    "category": "plastic cup",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "small plastic cup",
+    "color": "purple",
+    "size_cm": {
+      "height": 7.8,
+      "width": 7.93,
+      "length": 10.69
+    }
+  },
+  {
+    "obj_name": "dtc_kitchen_cup_b09g2wnn61_lightblue",
+    "source": "dtc",
+    "category": "plastic tumbler",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "plastic tumbler",
+    "color": "blue",
+    "size_cm": {
+      "height": 7.66,
+      "width": 7.66,
+      "length": 8.47
+    },
+    "name_override": "plastic tumbler",
+    "color_override": "blue"
+  },
+  {
+    "obj_name": "dtc_speaker_b0brkpvzb4_roundtriangle",
+    "source": "dtc",
+    "category": "portable bluetooth speaker",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "portable bluetooth speaker",
+    "color": "black",
+    "size_cm": {
+      "height": 7.19,
+      "width": 7.19,
+      "length": 20.04
+    }
+  },
+  {
+    "obj_name": "dtc_speaker_b08tzp9tk7_blue",
+    "source": "dtc",
+    "category": "portable bluetooth speaker",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "portable bluetooth speaker",
+    "color": "dark blue",
+    "size_cm": {
+      "height": 7.43,
+      "width": 7.46,
+      "length": 19.1
+    }
+  },
+  {
+    "obj_name": "dtc_speaker_b086jxj1lf_black",
+    "source": "dtc",
+    "category": "portable speaker",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "portable speaker",
+    "color": "black",
+    "size_cm": {
+      "height": 3.78,
+      "width": 5.2,
+      "length": 18.23
+    }
+  },
+  {
+    "obj_name": "dtc_shampoo_b0cmvm7bbf_dovemen",
+    "source": "dtc",
+    "category": "pump bottle",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "pump bottle",
+    "color": "dark brown",
+    "size_cm": {
+      "height": 6.83,
+      "width": 6.92,
+      "length": 22.68
+    }
+  },
+  {
+    "obj_name": "dtc_fakefruit_5404e_romeredapple",
+    "source": "dtc",
+    "category": "red apple",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "red apple",
+    "color": "red",
+    "size_cm": {
+      "height": 7.7,
+      "width": 7.85,
+      "length": 8.02
+    }
+  },
+  {
+    "obj_name": "dtc_mallard_b00rtsju7k_blue",
+    "source": "dtc",
+    "category": "rubber duck",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "blue rubber duck",
+    "color": "blue and yellow",
+    "size_cm": {
+      "height": 4.89,
+      "width": 5.8,
+      "length": 6.3
+    }
+  },
+  {
+    "obj_name": "hope_obj_024",
+    "source": "unified",
+    "category": "salad dressing bottle",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "salad dressing bottle",
+    "color": "white and green",
+    "size_cm": {
+      "length": 14.8,
+      "width": 6.5,
+      "height": 4.4
+    }
+  },
+  {
+    "obj_name": "hope_obj_002",
+    "source": "unified",
+    "category": "sauce bottle",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "plastic sauce bottle",
+    "color": "brown",
+    "size_cm": {
+      "length": 14.8,
+      "width": 6.5,
+      "height": 4.5
+    }
+  },
+  {
+    "obj_name": "dtc_shampoo_b07x2j7224_brownsilverlabel",
+    "source": "dtc",
+    "category": "shampoo bottle",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "shampoo bottle",
+    "color": "black and gray",
+    "size_cm": {
+      "height": 5.81,
+      "width": 5.87,
+      "length": 19.63
+    }
+  },
+  {
+    "obj_name": "dtc_shampoo_b0c546h55j_peachpink",
+    "source": "dtc",
+    "category": "shampoo bottle",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "plastic shampoo bottle",
+    "color": "light gray",
+    "size_cm": {
+      "height": 2.68,
+      "width": 4.17,
+      "length": 13.15
+    }
+  },
+  {
+    "obj_name": "dtc_shampoo_b0cn9lnvjf_glossyorange",
+    "source": "dtc",
+    "category": "shampoo bottle",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "shampoo bottle",
+    "color": "red",
+    "size_cm": {
+      "height": 6.62,
+      "width": 6.65,
+      "length": 23.52
+    }
+  },
+  {
+    "obj_name": "dtc_shampoo_b08nppk4cx_seamagik",
+    "source": "dtc",
+    "category": "shampoo bottle",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "shampoo bottle",
+    "color": "white and blue",
+    "size_cm": {
+      "height": 5.12,
+      "width": 5.15,
+      "length": 20.0
+    }
+  },
+  {
+    "obj_name": "dtc_pottery_b0b4j64x2z_greenyellow",
+    "source": "dtc",
+    "category": "small ceramic pot",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "small ceramic pot",
+    "color": "green, yellow, and white",
+    "size_cm": {
+      "height": 2.04,
+      "width": 2.06,
+      "length": 2.27
+    }
+  },
+  {
+    "obj_name": "dtc_can_toy_b0912qlqkc_sodacola",
+    "source": "dtc",
+    "category": "soda can",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "soda can",
+    "color": "red and grey",
+    "size_cm": {
+      "height": 4.17,
+      "width": 4.28,
+      "length": 6.54
+    }
+  },
+  {
+    "obj_name": "dtc_can_toy_b00146lv5c_chickennoodlesoup",
+    "source": "dtc",
+    "category": "soup can",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "soup can",
+    "color": "teal and silver",
+    "size_cm": {
+      "height": 5.42,
+      "width": 5.42,
+      "length": 7.09
+    }
+  },
+  {
+    "obj_name": "marc_anthony_true_professional_strictly_curls_curl_defining_lotion",
+    "source": "unified",
+    "category": "squeeze tube",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "squeeze tube",
+    "color": "pale yellow",
+    "size_cm": {
+      "length": 19.6,
+      "width": 6.3,
+      "height": 6.1
+    }
+  },
+  {
+    "obj_name": "dtc_dino_b015czp872_smallbluewithwhite",
+    "source": "dtc",
+    "category": "stegosaurus toy",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toy stegosaurus",
+    "color": "blue and yellow",
+    "size_cm": {
+      "height": 1.55,
+      "width": 2.67,
+      "length": 6.07
+    }
+  },
+  {
+    "obj_name": "twinlab_premium_creatine_fuel_powder",
+    "source": "unified",
+    "category": "supplement bottle",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "supplement bottle",
+    "color": "brown, black, and orange",
+    "size_cm": {
+      "length": 11.4,
+      "width": 8.0,
+      "height": 7.9
+    }
+  },
+  {
+    "obj_name": "yumyum_d3_liquid",
+    "source": "unified",
+    "category": "supplement box",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "rectangular supplement box",
+    "color": "orange",
+    "size_cm": {
+      "length": 10.1,
+      "width": 3.5,
+      "height": 3.4
+    },
+    "name_override": "rectangular supplement box",
+    "color_override": "orange"
+  },
+  {
+    "obj_name": "dtc_shoe_b09hwmpf9v_blackwhite_tu",
+    "source": "dtc",
+    "category": "toddler sneaker",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toddler sneaker",
+    "color": "navy blue and grey",
+    "size_cm": {
+      "height": 6.3,
+      "width": 6.91,
+      "length": 14.29
+    }
+  },
+  {
+    "obj_name": "dtc_marker_b08x27cjbt_yellow_tu",
+    "source": "dtc",
+    "category": "toy capsule",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toy capsule",
+    "color": "yellow and white",
+    "size_cm": {
+      "height": 1.71,
+      "width": 1.86,
+      "length": 5.21
+    }
+  },
+  {
+    "obj_name": "dtc_dino_b015czp872_smallgreenbrachiosaurus",
+    "source": "dtc",
+    "category": "toy dinosaur",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toy dinosaur",
+    "color": "green and yellow",
+    "size_cm": {
+      "height": 1.63,
+      "width": 4.47,
+      "length": 5.16
+    }
+  },
+  {
+    "obj_name": "dtc_figurine_b07j67vb5v_moorishidol",
+    "source": "dtc",
+    "category": "toy fish",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toy tropical fish",
+    "color": "yellow and black",
+    "size_cm": {
+      "height": 2.09,
+      "width": 5.4,
+      "length": 5.51
+    }
+  },
+  {
+    "obj_name": "dtc_box_toy_465efa08_farmfreshbutter",
+    "source": "dtc",
+    "category": "toy food box",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toy butter box",
+    "color": "red and yellow",
+    "size_cm": {
+      "height": 2.4,
+      "width": 5.38,
+      "length": 10.36
+    }
+  },
+  {
+    "obj_name": "dtc_can_toy_greenbeans_791cc4de",
+    "source": "dtc",
+    "category": "toy food can",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toy food can",
+    "color": "green and yellow",
+    "size_cm": {
+      "height": 5.73,
+      "width": 6.55,
+      "length": 7.08
+    }
+  },
+  {
+    "obj_name": "dtc_can_toy_b09wd35jtm_sweetcorn_1",
+    "source": "dtc",
+    "category": "toy food can",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toy food can",
+    "color": "grey and yellow",
+    "size_cm": {
+      "height": 2.64,
+      "width": 6.09,
+      "length": 6.19
+    }
+  },
+  {
+    "obj_name": "dtc_can_toy_b0c1kfxz6c_blackbeans",
+    "source": "dtc",
+    "category": "toy food can",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toy food can",
+    "color": "blue and grey",
+    "size_cm": {
+      "height": 5.24,
+      "width": 6.56,
+      "length": 6.79
+    }
+  },
+  {
+    "obj_name": "dtc_football_b07gy267js_pink",
+    "source": "dtc",
+    "category": "toy football",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toy football",
+    "color": "pink and black",
+    "size_cm": {
+      "height": 7.85,
+      "width": 7.88,
+      "length": 13.2
+    }
+  },
+  {
+    "obj_name": "dtc_can_toy_alphabetsoup_573ccee4",
+    "source": "dtc",
+    "category": "toy soup can",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toy soup can",
+    "color": "blue, orange, and grey",
+    "size_cm": {
+      "height": 6.58,
+      "width": 7.07,
+      "length": 8.18
+    }
+  },
+  {
+    "obj_name": "thomas_friends_wooden_railway_porter_5jzrhmm3a9o",
+    "source": "unified",
+    "category": "toy train engine",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toy train engine",
+    "color": "teal and black",
+    "size_cm": {
+      "length": 8.8,
+      "width": 5.0,
+      "height": 3.8
+    }
+  },
+  {
+    "obj_name": "dtc_can_toy_b09b8ptlbd_peasandcarrots",
+    "source": "dtc",
+    "category": "toy yogurt cup",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "toy food cup",
+    "color": "beige, green, and orange",
+    "size_cm": {
+      "height": 6.28,
+      "width": 6.5,
+      "length": 6.96
+    }
+  },
+  {
+    "obj_name": "dtc_dinoolefunredwithblackstripe",
+    "source": "dtc",
+    "category": "triceratops toy",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "triceratops toy",
+    "color": "red and black",
+    "size_cm": {
+      "height": 5.32,
+      "width": 7.16,
+      "length": 16.34
+    }
+  },
+  {
+    "obj_name": "dtc_can_toy_b09312sfgb_sardines",
+    "source": "dtc",
+    "category": "tuna can",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "sardine tin",
+    "color": "red",
+    "size_cm": {
+      "height": 2.19,
+      "width": 4.0,
+      "length": 6.59
+    }
+  },
+  {
+    "obj_name": "dtc_mouse_b086mf8q52_blue",
+    "source": "dtc",
+    "category": "wireless computer mouse",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "wireless computer mouse",
+    "color": "teal and black",
+    "size_cm": {
+      "height": 3.89,
+      "width": 6.77,
+      "length": 10.95
+    }
+  },
+  {
+    "obj_name": "dtc_hammer_b0058edq5y_swisshammer",
+    "source": "dtc",
+    "category": "wooden hammering toy",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "wooden handle hammer",
+    "color": "brown and grey",
+    "size_cm": {
+      "height": 1.26,
+      "width": 6.44,
+      "length": 22.77
+    }
+  },
+  {
+    "obj_name": "dtc_can_toy_b09wd35jtm_strawberry",
+    "source": "dtc",
+    "category": "yogurt cup",
+    "role": "target",
+    "role_source": "human",
+    "graspable": true,
+    "name": "strawberry yogurt cup",
+    "color": "pink and grey",
+    "size_cm": {
+      "height": 5.18,
+      "width": 6.11,
+      "length": 6.15
+    }
+  }
+]

@@ -1,0 +1,256 @@
+# -------------------------------------------------
+# Claude Code session data
+# -------------------------------------------------
+.claude/
+
+# -------------------------------------------------
+# Experiment outputs
+# -------------------------------------------------
+rollouts/
+rollout_vlm/
+rollout_vlm_*.zip
+paper_figures/
+# preserved (image-heavy) reserve annotation archives
+benchmark_reserve/
+logs/
+review-rounds/
+.cache/
+
+# -------------------------------------------------
+# Reversible asset-pruning archives + annotation backups
+# (kept on disk for restore; never committed — see § Repo Hygiene)
+# -------------------------------------------------
+owg_robot/assets/_removed_compound/
+owg_robot/assets/_removed_oversized/
+owg_robot/assets/*.json.bak_*
+
+scripts/generate_paper_figures.py
+
+# -------------------------------------------------
+# Third-party: large model weights + HuggingFace cache
+# (downloaded via scripts/download_weights.sh)
+# -------------------------------------------------
+.hf_cache/
+hf_cache/
+third_party/sam3/.cache/
+third_party/sam3/model.safetensors
+third_party/sam3/sam3.pt
+
+# -------------------------------------------------
+# 3D object assets — hosted on HuggingFace, downloaded on demand
+# -------------------------------------------------
+# These dirs are ~33 GB combined; too big for git/git-lfs.
+# Fetch with: python scripts/download_assets.py
+# Source repo: vineet-datasets/agentic-mqa-objects (HF dataset)
+owg_robot/assets/unified_objects/
+owg_robot/assets/unified_objects.zip
+owg_robot/assets/dtc_objects/
+owg_robot/assets/dtc_objects.zip
+
+# -------------------------------------------------
+# Python
+# -------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# -------------------------------------------------
+# Environment / secrets
+# -------------------------------------------------
+.env
+.env.*
+!.env.example
+*.key
+
+# -------------------------------------------------
+# Jupyter
+# -------------------------------------------------
+.ipynb_checkpoints/
+*.ipynb
+
+# -------------------------------------------------
+# OS / editor
+# -------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# -------------------------------------------------
+# Large local data (not for repo)
+# -------------------------------------------------
+D0ANCTX3N3T/
+cco_textures/
+bop-models/
+megapose-models/
+scripts-to-ignore/
+GraspGen/
+# GraspGen checkpoint weights (downloaded by scripts/download_weights.sh)
+checkpoints/graspgen/*.pth
+third_party/graspgen/grasp_gen/models/pointnet/_ext-src/
+
+# Local Qwen3-VL fine-tuned checkpoint (~16 GB, downloaded from HuggingFace)
+checkpoints/probe_agent_qwen3vl_8b_sft-v0.0/
+
+# Blender animation exports & test scripts
+*.blend
+*.blend1
+test_blend_export.py
+test_blend_pipeline.py
+precomputed_grasps/
+experiment-viewer/
+human-eval-website/
+# Top-level SFT dataset output dirs (e.g. sft_dataset/, sft_dataset_small/,
+# sft_dataset_conversational_train/).  We keep this anchored to the repo
+# root (leading ``/``) so that scripts named sft_dataset_*.py inside
+# scripts/ are still tracked — those are source code, not data.
+/sft_dataset*
+tmp/
+scripts_new/
+trajectory-annotator/.fly_token
+
+trajectory-annotator/
+sp-vs-ag-analysis/
+vineet-annotations/
+
+# -------------------------------------------------
+# Paper artefacts — keep .tex / .md sources tracked, ignore generated PDFs
+# and cached high-res figure renders (regenerable via scripts/render_paper_scenes.py).
+# -------------------------------------------------
+paper.pdf
+paper-figures/
+appendix-edit-instructions.txt
+
+# Stray screenshots dumped into the repo root
+WhatsApp*.jpeg
+WhatsApp*.jpg
+WhatsApp*.png
+
+# -------------------------------------------------
+# HuggingFace-upload data bundles for the model-comparison and SFT-vs-base
+# viewer pages.  The Python source (build_data.py / deploy_data.sh /
+# upload_parallel.py) IS tracked; the per-episode binary blobs are not.
+# Regenerate via:  python {model-comparison,sft-vs-base}/build_data.py
+# -------------------------------------------------
+model-comparison/data/
+sft-vs-base/data/
+
+# -------------------------------------------------
+# Gold-trajectories — only the benchmark episode list is public.
+# All curation scripts/outputs are internal.
+# -------------------------------------------------
+gold-trajectories/*
+!gold-trajectories/.gitignore
+!gold-trajectories/probe_benchmark_episodes.json
+!gold-trajectories/final_benchmark_episodes.json
+
+probe-agent-conversational-sft*/
+toolshed_logs/
+
+# -------------------------------------------------
+# Internal docs — the whole docs/ folder is an internal log, not for
+# collaborators. CLAUDE.md stays TRACKED (serves as an entry point for
+# collaborators' AI agents).
+# -------------------------------------------------
+docs/
+
+# -------------------------------------------------
+# Internal scripts (upload, analysis, maintenance)
+# -------------------------------------------------
+scripts/upload_*.py
+scripts/per_type_fair.py
+scripts/dump_correctness.py
+scripts/resummarize_*.py
+scripts/sft_dataset_pdf_report.py
+scripts/monitor_portal.py
+scripts/verify_hf_assets.py
+scripts/split_train_eval_objects.py
+scripts/test_graspgen.py
+scripts/test_push.py
+scripts/compare_renderer_first_frames.py
+
+# -------------------------------------------------
+# Legacy prompts (not used by current pipeline)
+# -------------------------------------------------
+prompts/ocid/
+prompts/pyb/
+prompts/grasp_planning.txt
+prompts/grasp_ranking.txt
+prompts/referring_segmentation.txt
+prompts/vlm_demo/system_prompt.txt
+prompts/vlm_demo/scene_reasoning_prompt.txt
+prompts/vlm_demo/question_generation_prompt.txt
+
+# -------------------------------------------------
+# Legacy / unused assets (kept on disk, not tracked)
+# -------------------------------------------------
+owg_robot/assets/ycb_objects/
+owg_robot/assets/object_annotations.json
+
+# marked-size prototype scratch output
+experiments/marked_size/out/
+
+# Local working archive of all accepted questions (~6.4 GB) — curate the
+# final 600Q benchmark FROM here; never commit.
+approved-questions/
+
+# Public release excludes local research, Hard data, review services and figures.
+/ESI-Bench/
+/benchmark-analysis/
+/benchmark-comparisons/
+/cleanup-manifests/
+/gpt6-failures-download/
+/hard-subset-work/
+/human-planner/
+/allsides_object_descriptions.json
+/owg_robot/assets/allsides_objects/
+/start_*review_server.sh
+/PAPER_FIGURE_SCENE_MAPPING.md
+/image*.png
+/sim-bench-examples*
+!/sim-bench-examples.png
+*.log
+*.jsonl
+.pytest_cache/
+
+# Maintenance/generation scripts stay on disk but are not release sources.
+/scripts/*
+!/scripts/download_assets.py
+!/scripts/download_weights.sh
+!/scripts/download_benchmark.py
+!/scripts/finish_setup.sh
+!/scripts/check_models.py
+!/scripts/preflight.py
+!/scripts/build_report.py
+!/scripts/export_release.py
+
+# Ignore rules also feed export_release.py for already-tracked internal files.
+/experiments/marked_size/*.sh
+/experiments/marked_size/analyze_*.py
+/experiments/marked_size/build_*.py
+/experiments/marked_size/gallery.py
+/experiments/marked_size/make_scenes.py
+/experiments/marked_size/migrate_table_textures.py
+/experiments/marked_size/report_marked.py
+/experiments/marked_size/revise_scene_bank.py
+/experiments/marked_size/run_pilot.py
+/experiments/marked_size/select_scene_bank.py
+/experiments/marked_size/subset_marked_results.py
+/experiments/marked_size/validate_scene_bank.py
+/prompts/
+/gold-trajectories/
+*.bak
+/owg_robot/assets/object_annotations_train.json
+/owg_robot/assets/urdf/objects/mesh copy/
+/third_party/grconvnet/
+/third_party/roborefer/
+/third_party/sam3/code_archive/

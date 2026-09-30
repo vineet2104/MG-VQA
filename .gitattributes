@@ -1,0 +1,23 @@
+# GR-ConvNet checkpoints
+third_party/grconvnet/checkpoints/** filter=lfs diff=lfs merge=lfs -text
+
+# Sungsu object assets (meshes, textures, collision models)
+owg_robot/assets/sungsu_objects/**/*.ply filter=lfs diff=lfs merge=lfs -text
+owg_robot/assets/sungsu_objects/**/*.obj filter=lfs diff=lfs merge=lfs -text
+owg_robot/assets/sungsu_objects/**/*.stl filter=lfs diff=lfs merge=lfs -text
+owg_robot/assets/sungsu_objects/**/*.dae filter=lfs diff=lfs merge=lfs -text
+owg_robot/assets/sungsu_objects/**/*.mtl filter=lfs diff=lfs merge=lfs -text
+owg_robot/assets/sungsu_objects/**/*.sdf filter=lfs diff=lfs merge=lfs -text
+owg_robot/assets/sungsu_objects/**/*.png filter=lfs diff=lfs merge=lfs -text
+owg_robot/assets/sungsu_objects/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+
+# YCB object assets
+owg_robot/assets/ycb_objects/**/*.ply filter=lfs diff=lfs merge=lfs -text
+owg_robot/assets/ycb_objects/**/*.obj filter=lfs diff=lfs merge=lfs -text
+owg_robot/assets/ycb_objects/**/*.mtl filter=lfs diff=lfs merge=lfs -text
+owg_robot/assets/ycb_objects/**/*.png filter=lfs diff=lfs merge=lfs -text
+
+# NOTE: dtc_objects/ and unified_objects/ are NOT tracked here.
+# They are ~33 GB combined and live on HuggingFace as
+# vineet-datasets/agentic-mqa-objects. A fresh clone fetches them via
+# `python scripts/download_assets.py`. See .gitignore.

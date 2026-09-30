@@ -1,0 +1,25 @@
+
+_target_: graspsampling.hands.URDFHand
+file_name: /home/clemens/code/graspsampling-py/data/hands/robotiq_2f_140/urdf/robotiq_arg2f_140_model.urdf
+grasp_frame: base_frame
+maximum_aperture: 0.12
+approach_direction: [0., 0., 1.]
+open_configurations:
+  - [0.]
+close_configurations:
+  - [0.7]
+width: 0.13603458
+depth: 0.1950
+closing_regions:
+  - extents: [0.12, 0.02, 0.06]
+    translation: [0.0, 0.0, 0.195]
+    rotation_wxyz: [1., 0., 0., 0.]
+contact_points:
+  - link_name: right_inner_finger_pad_geometry_9
+    location: [-6.80172918e-02,  0,  0.195]
+    normal: [1., 0., 0.]
+  - link_name: left_inner_finger_pad_geometry_4
+    location: [6.80172918e-02, 0,  0.195]
+    normal: [-1., 0., 0.]
+transform_offset_from_asset_to_graspgen_convention: [[0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 1.0]] # expressed as translation and quaternion[[xyz],[xyzw]]
+symmetric_antipodal: True

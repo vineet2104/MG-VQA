@@ -1,0 +1,22 @@
+# Installed after torch. No training, local planner, or cuRobo dependency.
+numpy==1.26.4
+opencv-python==4.11.0.86
+ultralytics==8.4.19
+transformers==4.57.6
+omegaconf==2.3.0
+diffusers==0.36.0
+einops==0.8.2
+h5py==3.14.0
+scikit-learn==1.4.1.post1
+open3d==0.18.0
+meshcat==0.3.2
+webdataset==0.2.100
+yourdfpy==0.0.60
+imageio==2.37.2
+imageio-ffmpeg==0.6.0
+rtree==1.4.1
+ninja>=1.11
+packaging>=23
+easydict==1.13
+attrdict==2.0.1
+spconv-cu120==2.3.6

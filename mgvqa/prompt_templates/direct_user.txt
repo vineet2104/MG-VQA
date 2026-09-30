@@ -1,0 +1,4 @@
+Question: {question}
+Task: {task}
+{answer_options_block}
+Image: Current top-down RGB. Respond using the JSON schema specified in the system prompt.
