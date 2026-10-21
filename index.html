@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MG-VQA: Manipulation Grounded Visual Question Answering with VLMs</title>
+  <meta name="description" content="MG-VQA: a benchmark and simulation environment for manipulation-grounded visual question answering with vision-language models.">
+  <meta property="og:title" content="MG-VQA: Manipulation Grounded Visual Question Answering with VLMs">
+  <meta property="og:description" content="600 human-verified questions, four spatial reasoning tasks, and three levels of environment access.">
+  <link rel="canonical" href="https://vineet2104.github.io/MG-VQA/">
+  <meta property="og:url" content="https://vineet2104.github.io/MG-VQA/">
+  <meta property="og:image" content="https://vineet2104.github.io/MG-VQA/static/images/teaser.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="citation_title" content="MG-VQA: Manipulation Grounded Visual Question Answering with VLMs">
+  <meta name="citation_author" content="Vineet Bhat"><meta name="citation_author" content="Mikaela Angelina Uy">
+  <meta name="citation_author" content="Siyi Chen"><meta name="citation_author" content="Chan Hee Song">
+  <meta name="citation_author" content="Alex Zook"><meta name="citation_author" content="Jenai Xuning Yang">
+  <meta name="citation_author" content="Stan Birchfield"><meta name="citation_author" content="Valts Blukis">
+  <meta name="citation_author" content="Jonathan Tremblay">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2608.17129v2">
+  <link rel="icon" href="static/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/site.css">
+  <script defer src="static/js/examples-data.js"></script>
+  <script defer src="static/js/site.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#abstract">Skip to abstract</a>
+<main>
+  <header class="paper-header">
+    <h1>MG-VQA: Manipulation Grounded<br class="wide-break"> Visual Question Answering with VLMs</h1>
+    <div class="authors" aria-label="Authors">
+      <a href="https://vineet2104.github.io/" target="_blank" rel="noopener">Vineet Bhat</a>
+      <span>Mikaela Angelina Uy</span><span>Siyi Chen</span><span>Chan Hee Song</span><span>Alex Zook</span>
+      <span>Jenai Xuning Yang</span><span>Stan Birchfield</span><span>Valts Blukis</span>
+      <a href="https://research.nvidia.com/person/jonathan-tremblay" target="_blank" rel="noopener">Jonathan Tremblay</a>
+    </div>
+    <p class="affiliation">NVIDIA</p>
+    <div class="paper-links">
+      <a class="primary-link" href="https://arxiv.org/abs/2608.17129" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H5v18h14V8l-5-5Z M14 3v5h5 M8 12h8 M8 16h6"/></svg><span class="link-label">Paper</span></a>
+      <a href="https://github.com/vineet2104/MG-VQA" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 6-6 6 6 6 M16 6l6 6-6 6 M14 3l-4 18"/></svg><span class="link-label">Code</span></a>
+      <a href="https://huggingface.co/datasets/bhatvineet/mg-vqa-bench" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v7c0 4 16 4 16 0V5 M4 12v7c0 4 16 4 16 0v-7"/></svg><span class="link-label">Benchmark</span></a>
+    </div>
+  </header>
+
+  <section id="abstract" class="abstract" aria-labelledby="abstract-heading">
+    <h2 id="abstract-heading">Abstract</h2>
+    <p>Vision-language models (VLMs) have shown promising spatial reasoning capabilities from static visual inputs, where the evidence needed to answer a question is available in the provided views. However, in cluttered environments, answer-relevant evidence may be occluded rather than absent: an object may lie beneath a pile, be covered by another object, or have identifying information facing away from the camera. Answering such questions requires physical interaction to reveal the hidden evidence. We formalize this setting as <em>Manipulation-Grounded Visual Question Answering</em> (MG-VQA), where an agent answers a question about an initially cluttered scene by using manipulation as an intermediate evidence-gathering operation. We introduce MG-VQA-Bench, comprising 600 human-verified questions across four spatial reasoning tasks, and evaluate it in a cluttered tabletop interactive environment. Eight VLMs are evaluated under three levels of environment access: Direct (image only), Perception (pointing, segmentation, and scene graphs), and Manipulation (perception, grasping, and pushing). Across all models, Direct and Perception achieve average success rates of 36.2% and 37.6%, respectively, only slightly above an image-blind chance baseline of 32.7%. In contrast, Manipulation raises average success to 56.8% (40.8–83.0% across models). Stronger tool-calling VLMs, GPT 6 Astra (83.0%) and Gemini 3.8 Flash (69.3%), search persistently and re-ground after unsuccessful interactions, while weaker models often answer without gathering sufficient evidence or stop prematurely after failed actions. Our results highlight the need for VLM agents that use manipulation for persistent, physically grounded evidence gathering and recovery.</p>
+  </section>
+
+  <section id="environment" aria-labelledby="environment-heading">
+    <h2 id="environment-heading">MG-VQA-Bench and MG-VQA-Sim</h2>
+    <figure class="paper-figure teaser">
+      <a href="static/images/teaser.webp" target="_blank" rel="noopener" aria-label="Open the teaser diagram at full size"><img src="static/images/teaser.webp" width="1736" height="720" alt="Figure 1: the tabletop simulator with a UR5 robot, alongside Count, Find, Beneath, and Compare examples."></a>
+      <figcaption>Figure 1. The simulation environment and four benchmark tasks. Red boxes are explanatory annotations, not inputs to the models.</figcaption>
+    </figure>
+    <h3>Available tools</h3>
+    <div class="table-scroll">
+      <table class="tools-table">
+        <caption>Evaluated VLMs have access to the following tools for perception &amp; manipulation.</caption>
+        <thead><tr><th scope="col">Tool</th><th scope="col">Input</th><th scope="col">Information or action</th></tr></thead>
+        <tbody>
+          <tr><th scope="row"><code>perceive_scene</code></th><td>Current scene</td><td>Returns a scene graph of visible objects, descriptions, points, and spatial relations.</td></tr>
+          <tr><th scope="row"><code>find_object</code></th><td>A 2D point</td><td>Returns the segmentation mask of the object at the requested point.</td></tr>
+          <tr><th scope="row"><code>grasp</code></th><td>Grounded object mask</td><td>Attempts to grasp the object and relocate it to the clearing basket.</td></tr>
+          <tr><th scope="row"><code>push</code></th><td>Grounded object and direction</td><td>Executes a directional push to move clutter and expose the scene.</td></tr>
+          <tr><th scope="row"><code>answer_question</code></th><td>Answer; a point for a positive Find answer</td><td>Submits the answer and ends the episode.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="results" aria-labelledby="results-heading">
+    <h2 id="results-heading">Results</h2>
+    <p>Direct mode uses only the initial image. Perception mode adds scene-understanding tools. Manipulation mode also enables grasping and pushing. We evaluate all VLMs in these three modes to measure the VQA performance improvements enabled by incremental scene-interaction capabilities and examine how their behavior changes with the broader range of actions available through a physical manipulator.</p>
+    <p>Across the eight models, average success increases from <strong>36.2% in Direct</strong> and <strong>37.6% in Perception</strong> to <strong>56.8% in Manipulation</strong>. GPT 6 Astra achieves <strong>83.0%</strong> in Manipulation mode.</p>
+    <div class="table-scroll">
+      <table class="results-table">
+        <caption>Table 1: success rate (%), macro-averaged over the four tasks.</caption>
+        <thead><tr><th scope="col">Model</th><th scope="col">Direct</th><th scope="col">Perception</th><th scope="col">Manipulation</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Gemma 4 31B IT</th><td>32.7</td><td>35.3</td><td>44.3</td></tr>
+          <tr><th scope="row">Kimi K3</th><td>36.5</td><td>40.7</td><td>56.7</td></tr>
+          <tr><th scope="row">GLM 5.3</th><td>30.2</td><td>32.5</td><td>40.8</td></tr>
+          <tr><th scope="row">Qwen 3.8 Flash Next</th><td>38.7</td><td>35.2</td><td>54.0</td></tr>
+          <tr class="group-divider"><th scope="row">Gemini 3.1 Pro</th><td>40.7</td><td>40.5</td><td>64.5</td></tr>
+          <tr><th scope="row">Gemini 3.8 Flash</th><td>42.2</td><td>40.3</td><td>69.3</td></tr>
+          <tr><th scope="row">Claude Opus 4.8</th><td>31.3</td><td>34.2</td><td>41.5</td></tr>
+          <tr class="astra-row"><th scope="row">GPT 6 Astra</th><td>37.0</td><td>42.5</td><td><strong>83.0</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Astra averages <strong>3.9 manipulation calls per question</strong>, compared with 0.9–2.9 for the other models. Figure 3 shows manipulation use alongside Find and Count outcomes.</p>
+    <figure class="paper-figure">
+      <a href="static/images/figure-3.webp" target="_blank" rel="noopener" aria-label="Open Figure 3 at full size"><img src="static/images/figure-3.webp" width="1736" height="648" loading="lazy" alt="Figure 3: manipulation frequency by task and model, correct Find answers for present versus absent targets, and Count undercounting versus overcounting errors."></a>
+      <figcaption>Figure 3: Manipulation and evidence gathering in MG-VQA-Bench. Left: percentage of the 150 Manipulation-mode episodes per model and task in which at least one grasp or push was used. Center: correctly answered Find questions when the target is absent versus present, 75 episodes each. Right: Count questions answered with an undercount versus an overcount; invalid count answers are excluded. Models are ordered as in Table 1; horizontal rule separates open-source from proprietary models.</figcaption>
+    </figure>
+  </section>
+
+  <section id="examples" aria-labelledby="examples-heading">
+    <h2 id="examples-heading">Example Tasks</h2>
+    <div class="task-tabs" role="tablist" aria-label="Choose an example task"><button id="task-tab-310" type="button" role="tab" aria-selected="true" aria-controls="example-panel" tabindex="0" data-example="0">Count</button><button id="task-tab-490" type="button" role="tab" aria-selected="false" aria-controls="example-panel" tabindex="-1" data-example="1">Find</button><button id="task-tab-213" type="button" role="tab" aria-selected="false" aria-controls="example-panel" tabindex="-1" data-example="2">Compare</button><button id="task-tab-81" type="button" role="tab" aria-selected="false" aria-controls="example-panel" tabindex="-1" data-example="3">Beneath</button></div>
+    <div id="example-panel" role="tabpanel" aria-labelledby="task-tab-310">
+      <div class="task-question-row">
+        <div><h3 id="example-question">Can you count the red tin cans for me?</h3><ul id="example-options" class="answer-options" aria-label="Answer options" hidden></ul><p id="example-open-answer">Open answer: an integer (no answer options).</p></div>
+        <aside id="example-outcome" class="response-badge correct" aria-label="Model response"><span>GPT 6 Astra</span><strong id="example-response">3 · Correct</strong><small id="example-correction" hidden></small></aside>
+      </div>
+      <div class="selected-views">
+        <figure class="selected-observation"><p class="view-heading">Top-down observation <span class="overlay-key"><i class="point-key"></i> Point <i class="mask-key"></i> Mask</span></p><img id="example-observation" src="static/examples/ep-310/turn-01.webp" width="768" height="768" alt="Top-down observation"><figcaption><strong id="example-tool">Observe the scene</strong><p id="example-reason">I need to locate visible cans and the objects concealing the central pile.</p></figcaption></figure>
+        <div class="selected-motion"><div class="player-toolbar"><span>Front view</span><div><button id="example-play" type="button" aria-controls="example-video">Pause</button><label><input id="example-loop" type="checkbox" checked> Loop</label></div></div><video id="example-video" controls autoplay muted loop playsinline preload="metadata" poster="static/examples/ep-310/poster.webp" aria-label="Robot interaction for the selected task"><source src="static/examples/ep-310/front.mp4" type="video/mp4"></video></div>
+      </div>
+      <p id="example-caption" class="example-caption">Success — GPT 6 Astra switches to pushing after a failed plate grasp, then clears two shoes and rechecks the scene. It correctly counts three red tin cans.</p>
+    </div>
+    <noscript><p>Enable JavaScript to switch tasks and synchronize the annotated observations. The first example remains playable above.</p></noscript>
+  </section>
+
+  <section id="bibtex" aria-labelledby="bibtex-heading">
+    <h2 id="bibtex-heading">BibTeX</h2>
+    <pre class="bibtex-entry" aria-label="BibTeX citation"><code id="bibtex-content">@misc{bhat2026mgvqamanipulationgroundedvisual,
+      title={MG-VQA: Manipulation Grounded Visual Question Answering with VLMs},
+      author={Vineet Bhat and Mikaela Angelina Uy and Siyi Chen and Chan Hee Song and Alex Zook and Xuning Yang and Stan Birchfield and Valts Blukis and Jonathan Tremblay},
+      year={2026},
+      eprint={2608.17129},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2608.17129},
+}</code></pre>
+  </section>
+</main>
+<footer><small>Page structure adapted from the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank" rel="noopener">Academic Project Page Template</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>).</small></footer>
+</body>
+</html>
