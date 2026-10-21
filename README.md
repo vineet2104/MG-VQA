@@ -215,5 +215,13 @@ Planned extensions (not included in the current release):
 ## Citation
 
 ```bibtex
-% BibTeX entry forthcoming.
+@misc{bhat2026mgvqamanipulationgroundedvisual,
+      title={MG-VQA: Manipulation Grounded Visual Question Answering with VLMs}, 
+      author={Vineet Bhat and Mikaela Angelina Uy and Siyi Chen and Chan Hee Song and Alex Zook and Xuning Yang and Stan Birchfield and Valts Blukis and Jonathan Tremblay},
+      year={2026},
+      eprint={2608.17129},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2608.17129}, 
+}
 ```
