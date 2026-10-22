@@ -24,8 +24,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="static/css/site.css">
-  <script defer src="static/js/examples-data.js"></script>
-  <script defer src="static/js/site.js"></script>
+  <script defer src="static/js/examples-data.js?v=fast-v1"></script>
+  <script defer src="static/js/site.js?v=fast-v1"></script>
 </head>
 <body>
 <a class="skip-link" href="#abstract">Skip to abstract</a>
@@ -109,8 +109,8 @@
         <aside id="example-outcome" class="response-badge correct" aria-label="Model response"><span>GPT 6 Astra</span><strong id="example-response">3 · Correct</strong><small id="example-correction" hidden></small></aside>
       </div>
       <div class="selected-views">
-        <figure class="selected-observation"><p class="view-heading">Top-down observation <span class="overlay-key"><i class="point-key"></i> Point <i class="mask-key"></i> Mask</span></p><img id="example-observation" src="static/examples/ep-310/turn-01.webp" width="768" height="768" alt="Top-down observation"><figcaption><strong id="example-tool">Observe the scene</strong><p id="example-reason">I need to locate visible cans and the objects concealing the central pile.</p></figcaption></figure>
-        <div class="selected-motion"><div class="player-toolbar"><span>Front view</span><div><button id="example-play" type="button" aria-controls="example-video">Pause</button><label><input id="example-loop" type="checkbox" checked> Loop</label></div></div><video id="example-video" controls autoplay muted loop playsinline preload="metadata" poster="static/examples/ep-310/poster.webp" aria-label="Robot interaction for the selected task"><source src="static/examples/ep-310/front.mp4" type="video/mp4"></video></div>
+        <figure class="selected-observation"><p class="view-heading">Top-down observation <span class="overlay-key"><i class="point-key"></i> Point <i class="mask-key"></i> Mask</span></p><img id="example-observation" src="static/examples/ep-310/turn-01-lite-v1.webp" width="768" height="768" alt="Top-down observation"><figcaption><strong id="example-tool">Observe the scene</strong><p id="example-reason">I need to locate visible cans and the objects concealing the central pile.</p></figcaption></figure>
+        <div class="selected-motion"><div class="player-toolbar"><span>Front view</span><div><button id="example-play" type="button" aria-controls="example-video">Pause</button><label><input id="example-loop" type="checkbox" checked> Loop</label></div></div><video id="example-video" controls autoplay muted loop playsinline preload="auto" poster="static/examples/ep-310/poster-lite-v1.webp" aria-label="Robot interaction for the selected task"><source src="static/examples/ep-310/front-lite-v1.mp4" type="video/mp4"></video></div>
       </div>
       <p id="example-caption" class="example-caption">Success — GPT 6 Astra switches to pushing after a failed plate grasp, then clears two shoes and rechecks the scene. It correctly counts three red tin cans.</p>
     </div>

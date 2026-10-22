@@ -14,6 +14,22 @@
   let currentTurn = null;
   let frameCallback = null;
   let generation = 0;
+  let initialized = false;
+  const warmedImages = new Set();
+
+  function warmNextObservation() {
+    // Let the video receive its first frame before warming a single next image.
+    if (video.readyState < 2) return;
+    const index = active.segments.findIndex(segment => segment.turn === currentTurn);
+    const next = active.segments[index + 1];
+    if (!next || warmedImages.has(next.image)) return;
+    warmedImages.add(next.image);
+    const image = new Image();
+    image.decoding = 'async';
+    image.fetchPriority = 'low';
+    image.onerror = () => warmedImages.delete(next.image);
+    image.src = next.image;
+  }
 
   function update(time = video.currentTime) {
     const segment = active.segments.find(s => time >= s.start && time < s.end)
@@ -22,10 +38,11 @@
     currentTurn = segment.turn;
     panel.dataset.turn = String(segment.turn);
     panel.dataset.overlay = segment.overlay;
-    observation.src = segment.image;
+    if (observation.getAttribute('src') !== segment.image) observation.src = segment.image;
     observation.alt = `Top-down observation for ${active.task}, turn ${segment.turn}: ${segment.label}`;
     document.getElementById('example-tool').textContent = segment.label;
     document.getElementById('example-reason').textContent = segment.reason;
+    warmNextObservation();
   }
 
   function startFrameUpdates() {
@@ -46,12 +63,14 @@
   }
 
   function select(index, focus = false) {
+    const initial = !initialized;
+    initialized = true;
     generation += 1;
     if (frameCallback !== null && 'cancelVideoFrameCallback' in video) {
       video.cancelVideoFrameCallback(frameCallback);
       frameCallback = null;
     }
-    video.pause();
+    if (!initial) video.pause();
     activeIndex = index;
     active = examples[index];
     currentTurn = null;
@@ -81,15 +100,22 @@
     correction.textContent = active.correct ? '' : `Correct: ${active.correctOption} — ${active.correctText}`;
     document.getElementById('example-caption').textContent = active.caption;
     video.poster = active.poster;
-    video.src = active.video;
     video.muted = true;
     video.loop = loop.checked;
     video.autoplay = !reducedMotion;
-    video.load();
+    video.preload = reducedMotion ? 'metadata' : 'auto';
+    const source = video.getAttribute('src') || video.querySelector('source')?.getAttribute('src');
+    if (source !== active.video) {
+      video.src = active.video;
+      video.load();
+    } else if (!initial) {
+      video.currentTime = 0;
+    }
+    // Preserve the initial HTML media request rather than aborting and reloading it.
     update(0);
-    // Warm only this example's observations, avoiding an image flash at tool boundaries.
-    active.segments.forEach(segment => { const image = new Image(); image.src = segment.image; });
+    if (video.readyState >= 2) startFrameUpdates();
     if (!reducedMotion) tryPlay();
+    else video.pause();
   }
 
   tabs.forEach((tab, index) => {
@@ -110,7 +136,7 @@
   video.addEventListener('play', () => { play.textContent = 'Pause'; });
   video.addEventListener('pause', () => { play.textContent = 'Play'; });
   video.addEventListener('ended', () => { play.textContent = 'Play'; update(); });
-  video.addEventListener('loadeddata', startFrameUpdates);
+  video.addEventListener('loadeddata', () => { startFrameUpdates(); warmNextObservation(); });
   for (const event of ['loadedmetadata', 'timeupdate', 'seeking', 'seeked']) {
     video.addEventListener(event, () => update());
   }
